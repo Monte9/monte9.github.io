@@ -14,4 +14,4 @@ Website theme is [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) - a mini
 2. Install Ruby gems: ```bundle install```
 3. Start Jekyll server: ```jekyll serve```
 
-Access via: http://localhost:4000/home/
+Access via: http://localhost:4000/

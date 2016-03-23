@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Mar 2016 14:29:27 -0500</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 14:29:27 -0500</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2016 14:36:33 -0500</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 14:36:33 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -93,6 +93,36 @@
         <pubDate>Tue, 22 Mar 2016 14:24:00 -0500</pubDate>
         <link>https://monte9.github.io//2016/ios-portfolio/</link>
         <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio/</guid>
+        
+        <category>iOS</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>New new test post</title>
+        <description>&lt;p&gt;Ok! So this works as well?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 14:24:00 -0500</pubDate>
+        <link>https://monte9.github.io//2016/new-post/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/new-post/</guid>
+        
+        <category>iOS</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Test post</title>
+        <description>&lt;p&gt;This is a test blog post.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Mar 2016 13:24:00 -0600</pubDate>
+        <link>https://monte9.github.io//2016/ios-portfolio-copy/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio-copy/</guid>
         
         <category>iOS</category>
         
