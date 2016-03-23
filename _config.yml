@@ -1,0 +1,39 @@
+# Site settings
+title: 'Monte Thakkar'
+description: 'Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?'
+url: 'https://monte9.github.io'
+baseurl: '/home/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Monte Thakkar'
+  email: mthakkar@mail.sfsu.edu
+  twitter_username: MThakkar_
+  facebook_username: MANTHANMAN
+  github_username:  Monte9
+  linkedin_username:  montethakkar
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
