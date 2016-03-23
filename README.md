@@ -10,8 +10,8 @@ Website theme is [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) - a mini
 2. [Checked: A plugin to display checkboxes using Liquid](https://tuananh.org/2014/08/04/writing-your-first-jekyll-plugin/)
 
 ## Install and Test:
-1. If you don't have bundler installed: gem install bundler
-2. Install Ruby gems: bundle install
-3. Start Jekyll server: jekyll serve
+1. If you don't have bundler installed: ```gem install bundler```
+2. Install Ruby gems: ```bundle install```
+3. Start Jekyll server: ```jekyll serve```
 
-Access via: http://localhost:4000/jekyll-uno
+Access via: http://localhost:4000/home/
