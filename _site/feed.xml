@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Mar 2016 16:51:56 -0500</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 16:51:56 -0500</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2016 17:46:19 -0500</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 17:46:19 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -283,6 +283,40 @@
         <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio/</guid>
         
         <category>iOS</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Work Experience</title>
+        <description>&lt;p&gt;&lt;strong&gt;Professional work experience.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;More content coming soon. Stay tuned.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 14:24:00 -0500</pubDate>
+        <link>https://monte9.github.io//2016/work-experience/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/work-experience/</guid>
+        
+        <category>work</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Hackathons</title>
+        <description>&lt;p&gt;&lt;strong&gt;My experience attending 5+ hackathons.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;More content coming soon. Stay tuned.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Mar 2016 14:24:00 -0500</pubDate>
+        <link>https://monte9.github.io//2016/hackathons/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/hackathons/</guid>
+        
+        <category>tech</category>
         
         
         <category>blogs</category>
