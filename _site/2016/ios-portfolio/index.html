@@ -154,16 +154,7 @@
   <section class="post">
     <p><strong>“I <em>live</em>, <em>breathe</em> and <em>sleep</em> Swift.” - Monte Thakkar</strong></p>
 
-<p>I am really passionate about iOS development and I find developing new iOS apps challenging yet fun. I am looking for internship/ full-time opportunities as a iOS Developer to work on ideas that are making (or plan to make) a difference</p>
-
-<h2 id="tools-and-resources-">Tools and Resources-</h2>
-
-<ol>
-  <li>Written in Swift</li>
-  <li>Use Cocoapods</li>
-  <li>Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)</li>
-  <li>Git for source control via terminal</li>
-</ol>
+<p>I am really passionate about iOS development and I find developing new iOS apps challenging and fun. I am looking for internship/ full-time opportunities as an iOS Developer to work on ideas that are making (or will make) a difference.</p>
 
 <h2 id="implemented-features-">Implemented features-</h2>
 
@@ -183,9 +174,9 @@
 
 <h2 id="code-samples-">Code Samples-</h2>
 
-<ol>
+<ul>
   <li>Tab Bar setup</li>
-</ol>
+</ul>
 
 <div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">setupTabBars</span><span class="p">()</span> <span class="p">{</span>
     <span class="c1">// Set up the Tweets View Controller</span>
@@ -221,6 +212,203 @@
 <span class="p">}</span>
 </code></pre>
 </div>
+
+<ul>
+  <li>GET Request</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">makeSearchCallWithCompletion</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="p">[</span><span class="kt">Gif</span><span class="p">]?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">url</span> <span class="o">=</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span><span class="s">"http://api.giphy.com/v1/gifs/search?q=</span><span class="se">\(</span><span class="n">searchTerm</span><span class="se">)</span><span class="s">&amp;api_key=</span><span class="se">\(</span><span class="n">publicBetaApiKey</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+
+    <span class="k">let</span> <span class="nv">request</span> <span class="o">=</span> <span class="kt">NSURLRequest</span><span class="p">(</span><span class="kt">URL</span><span class="p">:</span> <span class="n">url</span><span class="o">!</span><span class="p">)</span>
+    <span class="k">let</span> <span class="nv">session</span> <span class="o">=</span> <span class="kt">NSURLSession</span><span class="p">(</span>
+        <span class="nv">configuration</span><span class="p">:</span> <span class="kt">NSURLSessionConfiguration</span><span class="o">.</span><span class="nf">defaultSessionConfiguration</span><span class="p">(),</span>
+        <span class="nv">delegate</span><span class="p">:</span><span class="kc">nil</span><span class="p">,</span>
+        <span class="nv">delegateQueue</span><span class="p">:</span><span class="kt">NSOperationQueue</span><span class="o">.</span><span class="nf">mainQueue</span><span class="p">()</span>
+    <span class="p">)</span>
+
+    <span class="k">let</span> <span class="nv">task</span> <span class="p">:</span> <span class="kt">NSURLSessionDataTask</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="nf">dataTaskWithRequest</span><span class="p">(</span><span class="n">request</span><span class="p">,</span>
+        <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">dataOrNil</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+            <span class="k">if</span> <span class="k">let</span> <span class="nv">data</span> <span class="o">=</span> <span class="n">dataOrNil</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="k">let</span> <span class="nv">responseDictionary</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">NSJSONSerialization</span><span class="o">.</span><span class="kt">JSONObjectWithData</span><span class="p">(</span>
+                    <span class="n">data</span><span class="p">,</span> <span class="nv">options</span><span class="p">:[])</span> <span class="k">as?</span> <span class="kt">NSDictionary</span> <span class="p">{</span>
+                        <span class="c1">//print(responseDictionary)</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="n">responseDictionary</span><span class="p">[</span><span class="s">"data"</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">)</span> <span class="p">{</span>
+
+                            <span class="k">self</span><span class="o">.</span><span class="n">gifs</span> <span class="o">=</span> <span class="kt">Gif</span><span class="o">.</span><span class="nf">gifsWithArray</span><span class="p">(</span><span class="n">responseDictionary</span><span class="p">[</span><span class="s">"data"</span><span class="p">]</span> <span class="k">as!</span> <span class="p">[</span><span class="kt">NSDictionary</span><span class="p">])</span>
+
+                            <span class="nf">print</span><span class="p">(</span><span class="s">"Connection to API successful!"</span><span class="p">)</span>
+                            <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">gifs</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+                        <span class="p">}</span>
+                        <span class="k">else</span> <span class="p">{</span>
+                            <span class="nf">print</span><span class="p">(</span><span class="s">"error"</span><span class="p">)</span>
+                            <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
+                        <span class="p">}</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span> <span class="p">}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span> <span class="p">}</span>
+    <span class="p">});</span>
+    <span class="n">task</span><span class="o">.</span><span class="nf">resume</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>OAuth (for twitter)</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">openUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">?)</span> <span class="p">{</span>
+
+    <span class="c1">//Get access token</span>
+    <span class="nf">fetchAccessTokenWithPath</span><span class="p">(</span><span class="s">"oauth/access_token"</span><span class="p">,</span> <span class="nv">method</span><span class="p">:</span> <span class="s">"POST"</span><span class="p">,</span> <span class="nv">requestToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="p">(</span><span class="nv">queryString</span><span class="p">:</span> <span class="n">url</span><span class="o">!.</span><span class="n">query</span><span class="p">),</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">accessToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Access Token received"</span><span class="p">)</span>
+
+        <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">requestSerializer</span><span class="o">.</span><span class="nf">saveAccessToken</span><span class="p">(</span>
+            <span class="n">accessToken</span><span class="p">)</span>
+
+        <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="kt">GET</span><span class="p">(</span><span class="s">"1.1/account/verify_credentials.json"</span><span class="p">,</span> <span class="nv">parameters</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">operation</span><span class="p">:</span> <span class="kt">NSURLSessionDataTask</span><span class="p">,</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+            <span class="c1">//                print("user: \(response)")</span>
+            <span class="k">var</span> <span class="nv">user</span> <span class="o">=</span> <span class="kt">User</span><span class="p">(</span><span class="nv">dictionary</span><span class="p">:</span> <span class="n">response</span> <span class="k">as!</span> <span class="kt">NSDictionary</span><span class="p">)</span>
+            <span class="kt">User</span><span class="o">.</span><span class="n">currentUser</span> <span class="o">=</span> <span class="n">user</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"user.name = </span><span class="se">\(</span><span class="n">user</span><span class="o">.</span><span class="n">name</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="o">!</span><span class="p">(</span><span class="nv">user</span><span class="p">:</span> <span class="n">user</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+            <span class="p">},</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">operation</span><span class="p">:</span> <span class="kt">NSURLSessionDataTask</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+                <span class="nf">print</span><span class="p">(</span><span class="s">"error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+                <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
+        <span class="p">})</span>
+
+        <span class="p">})</span>
+        <span class="p">{</span> <span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"Access Token error"</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">loginWithCompletion</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(</span><span class="nv">user</span><span class="p">:</span> <span class="kt">User</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="p">{</span>
+    <span class="n">loginCompletion</span> <span class="o">=</span> <span class="n">completion</span>
+
+    <span class="c1">//remove access token if it exist previously</span>
+    <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">requestSerializer</span><span class="o">.</span><span class="nf">removeAccessToken</span><span class="p">()</span>
+
+    <span class="c1">//Getting the request token and redirect to authorization page</span>
+    <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">fetchRequestTokenWithPath</span><span class="p">(</span><span class="s">"oauth/request_token"</span><span class="p">,</span> <span class="nv">method</span><span class="p">:</span> <span class="s">"GET"</span><span class="p">,</span> <span class="nv">callbackURL</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"michokan://oauth"</span><span class="p">),</span> <span class="nv">scope</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">requestToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Got request token"</span><span class="p">)</span>
+        <span class="k">var</span> <span class="nv">authURL</span> <span class="o">=</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"https://api.twitter.com/oauth/authorize?oauth_token=</span><span class="se">\(</span><span class="n">requestToken</span><span class="o">.</span><span class="n">token</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="kt">UIApplication</span><span class="o">.</span><span class="nf">sharedApplication</span><span class="p">()</span><span class="o">.</span><span class="nf">openURL</span><span class="p">(</span><span class="n">authURL</span><span class="o">!</span><span class="p">)</span>
+
+        <span class="p">})</span>
+        <span class="p">{</span> <span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"Failed to get request token:  </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
+    <span class="p">}</span>
+    <span class="c1">//    manager.requestSerializer = [AFJSONRequestSerializer serializer];</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>Map View</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c1">//use location manager to get the current location</span>
+<span class="n">locationManager</span> <span class="o">=</span> <span class="kt">CLLocationManager</span><span class="p">()</span>
+<span class="n">locationManager</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+<span class="n">locationManager</span><span class="o">.</span><span class="n">desiredAccuracy</span> <span class="o">=</span> <span class="n">kCLLocationAccuracyNearestTenMeters</span>
+<span class="n">locationManager</span><span class="o">.</span><span class="n">distanceFilter</span> <span class="o">=</span> <span class="mi">200</span>
+<span class="n">locationManager</span><span class="o">.</span><span class="nf">requestWhenInUseAuthorization</span><span class="p">()</span>
+
+<span class="n">mapView</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+
+<span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didChangeAuthorizationStatus</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">CLAuthorizationStatus</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="kt">CLAuthorizationStatus</span><span class="o">.</span><span class="kt">AuthorizedWhenInUse</span> <span class="p">{</span>
+        <span class="n">locationManager</span><span class="o">.</span><span class="nf">startUpdatingLocation</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">viewForAnnotation</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MKAnnotation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">MKAnnotationView</span><span class="p">?</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">identifier</span> <span class="o">=</span> <span class="s">"customAnnotationView"</span>
+
+    <span class="c1">// custom image annotation</span>
+    <span class="k">var</span> <span class="nv">annotationView</span> <span class="o">=</span> <span class="n">mapView</span><span class="o">.</span><span class="nf">dequeueReusableAnnotationViewWithIdentifier</span><span class="p">(</span><span class="n">identifier</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">annotationView</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">annotationView</span> <span class="o">=</span> <span class="kt">MKAnnotationView</span><span class="p">(</span><span class="nv">annotation</span><span class="p">:</span> <span class="n">annotation</span><span class="p">,</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="n">identifier</span><span class="p">)</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="p">{</span>
+        <span class="n">annotationView</span><span class="o">!.</span><span class="n">annotation</span> <span class="o">=</span> <span class="n">annotation</span>
+    <span class="p">}</span>
+    <span class="n">annotationView</span><span class="o">!.</span><span class="n">image</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"business"</span><span class="p">)</span>
+    <span class="n">annotationView</span><span class="o">!.</span><span class="n">canShowCallout</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="k">return</span> <span class="n">annotationView</span>
+<span class="p">}</span>
+
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">annotationView</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">,</span> <span class="n">didChangeDragState</span> <span class="nv">newState</span><span class="p">:</span> <span class="kt">MKAnnotationViewDragState</span><span class="p">,</span> <span class="n">fromOldState</span> <span class="nv">oldState</span><span class="p">:</span> <span class="kt">MKAnnotationViewDragState</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">mapView</span><span class="o">.</span><span class="nf">reloadInputViews</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didUpdateLocations</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLLocation</span><span class="p">])</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="k">let</span> <span class="nv">location</span> <span class="o">=</span> <span class="n">locations</span><span class="o">.</span><span class="n">first</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">span</span> <span class="o">=</span> <span class="kt">MKCoordinateSpanMake</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
+        <span class="k">let</span> <span class="nv">region</span> <span class="o">=</span> <span class="kt">MKCoordinateRegionMake</span><span class="p">(</span><span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="p">,</span> <span class="n">span</span><span class="p">)</span>
+        <span class="n">region</span><span class="o">.</span><span class="n">center</span>
+        <span class="n">mapView</span><span class="o">.</span><span class="nf">setRegion</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">addAnnotationAtCoordinate</span><span class="p">(</span><span class="nv">coordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">annotation</span> <span class="o">=</span> <span class="kt">MKPointAnnotation</span><span class="p">()</span>
+    <span class="n">annotation</span><span class="o">.</span><span class="n">coordinate</span> <span class="o">=</span> <span class="n">coordinate</span>
+    <span class="n">annotation</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+    <span class="n">mapView</span><span class="o">.</span><span class="nf">addAnnotation</span><span class="p">(</span><span class="n">annotation</span><span class="p">)</span>
+    <span class="c1">//  print("annotation added")</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">goToLocation</span><span class="p">(</span><span class="nv">location</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">span</span> <span class="o">=</span> <span class="kt">MKCoordinateSpanMake</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
+    <span class="k">let</span> <span class="nv">region</span> <span class="o">=</span> <span class="kt">MKCoordinateRegionMake</span><span class="p">(</span><span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="p">,</span> <span class="n">span</span><span class="p">)</span>
+    <span class="n">mapView</span><span class="o">.</span><span class="nf">setRegion</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>Search for table views/ collection views</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">searchBar</span><span class="p">(</span><span class="nv">searchBar</span><span class="p">:</span> <span class="kt">UISearchBar</span><span class="p">,</span> <span class="n">textDidChange</span> <span class="nv">searchText</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">searchResults</span> <span class="o">=</span> <span class="n">searchText</span><span class="o">.</span><span class="n">isEmpty</span> <span class="p">?</span> <span class="nv">businesses</span> <span class="p">:</span> <span class="n">businesses</span><span class="o">!.</span><span class="nf">filter</span><span class="p">({</span> <span class="p">(</span><span class="nv">business</span><span class="p">:</span> <span class="kt">Business</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="k">in</span>
+        <span class="nf">return</span> <span class="p">(</span><span class="n">business</span><span class="o">.</span><span class="n">name</span><span class="p">)</span><span class="o">!.</span><span class="nf">rangeOfString</span><span class="p">(</span><span class="n">searchText</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="o">.</span><span class="kt">CaseInsensitiveSearch</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span>
+    <span class="p">})</span>
+    <span class="n">businessTableView</span><span class="o">.</span><span class="nf">reloadData</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>Gif playback (using Gifu library)</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAtIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">NSIndexPath</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="nf">print</span><span class="p">(</span><span class="s">"cell click detected index path </span><span class="se">\(</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+
+    <span class="k">let</span> <span class="nv">cell</span> <span class="o">=</span> <span class="n">tableView</span><span class="o">.</span><span class="nf">dequeueReusableCellWithIdentifier</span><span class="p">(</span><span class="s">"cell"</span><span class="p">,</span> <span class="nv">forIndexPath</span><span class="p">:</span> <span class="n">indexPath</span><span class="p">)</span> <span class="k">as!</span> <span class="kt">GifCell</span>
+
+    <span class="k">var</span> <span class="nv">gifData</span> <span class="o">=</span> <span class="kt">NSData</span><span class="p">(</span><span class="nv">contentsOfURL</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="n">gifs</span><span class="o">!</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">playingImageUrl</span><span class="o">!</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+
+    <span class="n">cell</span><span class="o">.</span><span class="n">gifImageView</span><span class="o">.</span><span class="nf">prepareForAnimation</span><span class="p">(</span><span class="nv">imageData</span><span class="p">:</span> <span class="n">gifData</span><span class="o">!</span><span class="p">)</span>
+    <span class="n">cell</span><span class="o">.</span><span class="n">gifImageView</span><span class="o">.</span><span class="nf">startAnimatingGIF</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<h2 id="tools-">Tools-</h2>
+
+<ol>
+  <li>Written in Swift</li>
+  <li>Use Cocoapods</li>
+  <li>Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)</li>
+  <li>Git for source control via terminal</li>
+</ol>
 
 <h2 id="other-resources-">Other resources-</h2>
 <ol>
