@@ -2,7 +2,7 @@
 title: 'Monte Thakkar'
 description: 'Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?'
 url: 'https://monte9.github.io'
-# baseurl: '/home/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
@@ -17,7 +17,7 @@ author:
 defaults:
   -
     scope:
-      path: ''
+      path: '/'
       type: 'posts'
     values:
         layout: 'post'

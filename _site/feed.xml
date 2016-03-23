@@ -3,10 +3,10 @@
   <channel>
     <title>Monte Thakkar</title>
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
-    <link>https://monte9.github.io/</link>
-    <atom:link href="https://monte9.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Mar 2016 13:04:26 -0500</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 13:04:26 -0500</lastBuildDate>
+    <link>https://monte9.github.io//</link>
+    <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 23 Mar 2016 14:29:27 -0500</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 14:29:27 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -91,8 +91,8 @@
 
 </description>
         <pubDate>Tue, 22 Mar 2016 14:24:00 -0500</pubDate>
-        <link>https://monte9.github.io/2016/ios-portfolio/</link>
-        <guid isPermaLink="true">https://monte9.github.io/2016/ios-portfolio/</guid>
+        <link>https://monte9.github.io//2016/ios-portfolio/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio/</guid>
         
         <category>iOS</category>
         
