@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Mar 2016 17:46:19 -0500</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 17:46:19 -0500</lastBuildDate>
+    <pubDate>Thu, 24 Mar 2016 18:08:50 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Mar 2016 18:08:50 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -291,9 +291,79 @@
     
       <item>
         <title>Work Experience</title>
-        <description>&lt;p&gt;&lt;strong&gt;Professional work experience.&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;I have had 5+ different jobs since I started college. I really enjoy taking on responsibilities, working with people and learning new things from peers and colleagues. Currently looking to explore new oppurtunities in the field of iOS development.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;More content coming soon. Stay tuned.&lt;/p&gt;
+&lt;h3 id=&quot;ios-mobile-bootcamp--codepath-inc&quot;&gt;&lt;strong&gt;iOS Mobile Bootcamp&lt;/strong&gt; @ CodePath Inc&lt;/h3&gt;
+
+&lt;h5 id=&quot;january-2016-present&quot;&gt;&lt;em&gt;January 2016-present&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 out of 100 students selected for iOS development track at CCSF&lt;/li&gt;
+  &lt;li&gt;Explore major iOS topics according to current industry best practices&lt;/li&gt;
+  &lt;li&gt;Developed 6+ iOS apps including cloning Twitter, Yelp and Giphy apps&lt;/li&gt;
+  &lt;li&gt;Building iStream app using Parse Server + Heroku that will enable users to share their daily experience through gifs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ios-developer--deckstr-inc&quot;&gt;&lt;strong&gt;iOS Developer&lt;/strong&gt; @ Deckstr Inc&lt;/h3&gt;
+
+&lt;h5 id=&quot;august-2015-march-2016&quot;&gt;&lt;em&gt;August 2015-March 2016&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Independently implemented features such as Login w/ Parse, OAuth w/ Facebook and LinkedIn&lt;/li&gt;
+  &lt;li&gt;Coordinate weekly iOS team meetings; complete weekly development deadlines&lt;/li&gt;
+  &lt;li&gt;Participate in weekly full-team meetings- give updates on behalf of iOS team&lt;/li&gt;
+  &lt;li&gt;Experience in Swift, Git/Github, Cocoapods, XCode, API’s, OAuth, 3rd party libraries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;webmaster--san-francisco-state-university&quot;&gt;&lt;strong&gt;Webmaster&lt;/strong&gt; @ San Francisco State University&lt;/h3&gt;
+
+&lt;h5 id=&quot;may-2015-present&quot;&gt;&lt;em&gt;May 2015-present&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Develop and maintain several department websites using Drupal CMS, WordPress and Adobe Dreamweaver&lt;/li&gt;
+  &lt;li&gt;Improve web design, information architecture, search engine optimization&lt;/li&gt;
+  &lt;li&gt;Perform site re-structuring, bug fixes, accessibility and usability testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;student-grader-csc-230--cs-dept-sf-state&quot;&gt;&lt;strong&gt;Student Grader (CSC 230)&lt;/strong&gt; @ CS Dept, SF State&lt;/h3&gt;
+
+&lt;h5 id=&quot;august-2015-present&quot;&gt;&lt;em&gt;August 2015-present&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Grade student assignments as per instructor’s criteria&lt;/li&gt;
+  &lt;li&gt;Provide feedback and raise concerns based on class performance&lt;/li&gt;
+  &lt;li&gt;Complete and return assigned grading on a tight weekly schedule&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;note-taker--dprc-sf-state&quot;&gt;&lt;strong&gt;Note Taker&lt;/strong&gt; @ DPRC, SF State&lt;/h3&gt;
+
+&lt;h5 id=&quot;september-december-2015&quot;&gt;&lt;em&gt;September-December 2015&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Volunteered to share notes with a fellow classmate as a reasonable accommodation through the Disability Programs and Resource Center (DPRC) for the duration of the semester.&lt;/li&gt;
+  &lt;li&gt;Shared notes electronically through Google Docs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;apple-representative--foothill-college-bookstore&quot;&gt;&lt;strong&gt;Apple Representative&lt;/strong&gt; @ Foothill College Bookstore&lt;/h3&gt;
+
+&lt;h5 id=&quot;october-2012-july-2014&quot;&gt;&lt;em&gt;October 2012-July 2014&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Certified as Apple Product Professional (APP) and completed iOS Technical Training through Apple Sales Training Program (ASTO)&lt;/li&gt;
+  &lt;li&gt;Responsible for sales and invoicing of Apple products up to $30,000&lt;/li&gt;
+  &lt;li&gt;Performed shipping, receiving and shelf stocking of books and merchandise using MBS AS400 system and UPS Worldship&lt;/li&gt;
+  &lt;li&gt;Demonstrated strong communication and multitasking skills along with excellent customer service.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;summer-intern--make-school-sf&quot;&gt;&lt;strong&gt;Summer Intern&lt;/strong&gt; @ Make School, SF&lt;/h3&gt;
+
+&lt;h5 id=&quot;july--august-2013&quot;&gt;&lt;em&gt;July- August 2013&lt;/em&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Selected for the iOS development track; Batch of 2013&lt;/li&gt;
+  &lt;li&gt;Explored application prototyping, user testing, UI/UX, Objective-C&lt;/li&gt;
+  &lt;li&gt;Cultivated strong programming techniques and work ethic alongside experienced mentors&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 21 Mar 2016 14:24:00 -0500</pubDate>
         <link>https://monte9.github.io//2016/work-experience/</link>
