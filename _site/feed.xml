@@ -5,9 +5,77 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 Mar 2016 20:37:19 -0500</pubDate>
-    <lastBuildDate>Thu, 24 Mar 2016 20:37:19 -0500</lastBuildDate>
+    <pubDate>Thu, 24 Mar 2016 21:25:05 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Mar 2016 21:25:05 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Hackathons</title>
+        <description>&lt;p&gt;&lt;strong&gt;Hackathons are for tech zombies and I am one of them!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;if-prompt-bot&quot;&gt;&lt;strong&gt;@If (Prompt bot)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;winner-most-useful-prompt-command&quot;&gt;&lt;strong&gt;WINNER: Most Useful Prompt Command&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;hacktech16--caltech-pasadena-ca&quot;&gt;&lt;em&gt;@Hacktech’16- Caltech, Pasadena, CA&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mood based, meta-searching for bots across the entire Prompt platform.&lt;/li&gt;
+  &lt;li&gt;Written in Node.js, JavaScript and hosted on Microsoft Azure.&lt;/li&gt;
+  &lt;li&gt;I wrote the keyword dictionaries and comparison algorithm in JavaScript.&lt;/li&gt;
+  &lt;li&gt;Won a RC Quadcopter Drone with HD Camera. dope!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lets-eat-ios-app&quot;&gt;&lt;strong&gt;Let’s Eat (iOS App)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;calhacks15--uc-berkeley-berkeley-ca&quot;&gt;&lt;em&gt;@CalHacks’15- UC Berkeley, Berkeley, CA&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Restaurant reservation made simple with QR Codes; User gets notified when the table is ready and can pay the check through the app when done.&lt;/li&gt;
+  &lt;li&gt;I built the entire customer-side app, setup Parse on the backend and implemented Stripe API to process payments.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;koclassclub-web-app&quot;&gt;&lt;strong&gt;KoClass.Club (Web App)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;hackingedu15--san-mateo-event-center-ca&quot;&gt;&lt;em&gt;@HackingEDU’15- San Mateo Event Center, CA&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web platform that enables students to collaboratively write notes and chat in real time.&lt;/li&gt;
+  &lt;li&gt;Professor can share slides and test results on the platform in the classroom.&lt;/li&gt;
+  &lt;li&gt;Used Laravel framework with Nginx and Php-Fpm stack.&lt;/li&gt;
+  &lt;li&gt;I integrated Boostrap and Moxtra API.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;flashem-ios-app&quot;&gt;&lt;strong&gt;Flash’em (iOS App)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;disrupt-hackathon15--tech-crunch-disrupt-san-francisco-ca&quot;&gt;&lt;em&gt;@Disrupt Hackathon’15- Tech Crunch Disrupt, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Social app that matches users based on similar interests &amp;amp; location.&lt;/li&gt;
+  &lt;li&gt;I built the entire iOS app making calls to RESTful API.&lt;/li&gt;
+  &lt;li&gt;Presented the app on stage to an audience of 500+ people.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;karmado-ios-app&quot;&gt;&lt;strong&gt;KarmaDo (iOS App)&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;makehacks15--make-school-san-francisco-ca&quot;&gt;&lt;em&gt;@MakeHacks’15- Make School, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simple To-Do List app that motivates users to donate to a charity if they miss/forget to complete a task.&lt;/li&gt;
+  &lt;li&gt;Worked alongside highschoolers that contributed to the app by learning Swift in under 12 hours.&lt;/li&gt;
+  &lt;li&gt;Although not technically challenging, I guided my teammates through building their first iOS app.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 14:24:00 -0500</pubDate>
+        <link>https://monte9.github.io//2016/hackathons/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/hackathons/</guid>
+        
+        <category>tech</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
     
       <item>
         <title>iOS Portfolio</title>
@@ -278,7 +346,7 @@
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Tue, 22 Mar 2016 14:24:00 -0500</pubDate>
+        <pubDate>Mon, 21 Mar 2016 14:24:00 -0500</pubDate>
         <link>https://monte9.github.io//2016/ios-portfolio/</link>
         <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio/</guid>
         
@@ -365,79 +433,11 @@
   &lt;li&gt;Cultivated strong programming techniques and work ethic alongside experienced mentors&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 21 Mar 2016 14:24:00 -0500</pubDate>
+        <pubDate>Sun, 20 Mar 2016 14:24:00 -0500</pubDate>
         <link>https://monte9.github.io//2016/work-experience/</link>
         <guid isPermaLink="true">https://monte9.github.io//2016/work-experience/</guid>
         
         <category>work</category>
-        
-        
-        <category>blogs</category>
-        
-      </item>
-    
-      <item>
-        <title>Hackathons</title>
-        <description>&lt;p&gt;&lt;strong&gt;Hackathons are for tech zombies and I am one of them!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;if-prompt-bot&quot;&gt;&lt;strong&gt;@If (Prompt bot)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;winner-most-useful-prompt-command&quot;&gt;&lt;strong&gt;WINNER: Most Useful Prompt Command&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;hacktech16--caltech-pasadena-ca&quot;&gt;&lt;em&gt;@Hacktech’16- Caltech, Pasadena, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mood based, meta-searching for bots across the entire Prompt platform.&lt;/li&gt;
-  &lt;li&gt;Written in Node.js, JavaScript and hosted on Microsoft Azure.&lt;/li&gt;
-  &lt;li&gt;I wrote the keyword dictionaries and comparison algorithm in JavaScript.&lt;/li&gt;
-  &lt;li&gt;Won a RC Quadcopter Drone with HD Camera. dope!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lets-eat-ios-app&quot;&gt;&lt;strong&gt;Let’s Eat (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;calhacks15--uc-berkeley-berkeley-ca&quot;&gt;&lt;em&gt;@CalHacks’15- UC Berkeley, Berkeley, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Restaurant reservation made simple with QR Codes; User gets notified when the table is ready and can pay the check through the app when done.&lt;/li&gt;
-  &lt;li&gt;I built the entire customer-side app, setup Parse on the backend and implemented Stripe API to process payments.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;koclassclub-web-app&quot;&gt;&lt;strong&gt;KoClass.Club (Web App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;hackingedu15--san-mateo-event-center-ca&quot;&gt;&lt;em&gt;@HackingEDU’15- San Mateo Event Center, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Web platform that enables students to collaboratively write notes and chat in real time.&lt;/li&gt;
-  &lt;li&gt;Professor can share slides and test results on the platform in the classroom.&lt;/li&gt;
-  &lt;li&gt;Used Laravel framework with Nginx and Php-Fpm stack.&lt;/li&gt;
-  &lt;li&gt;I integrated Boostrap and Moxtra API.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;flashem-ios-app&quot;&gt;&lt;strong&gt;Flash’em (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;disrupt-hackathon15--tech-crunch-disrupt-san-francisco-ca&quot;&gt;&lt;em&gt;@Disrupt Hackathon’15- Tech Crunch Disrupt, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Social app that matches users based on similar interests &amp;amp; location.&lt;/li&gt;
-  &lt;li&gt;I built the entire iOS app making calls to RESTful API.&lt;/li&gt;
-  &lt;li&gt;Presented the app on stage to an audience of 500+ people.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;karmado-ios-app&quot;&gt;&lt;strong&gt;KarmaDo (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;makehacks15--make-school-san-francisco-ca&quot;&gt;&lt;em&gt;@MakeHacks’15- Make School, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Simple To-Do List app that motivates users to donate to a charity if they miss/forget to complete a task.&lt;/li&gt;
-  &lt;li&gt;Worked alongside highschoolers that contributed to the app by learning Swift in under 12 hours.&lt;/li&gt;
-  &lt;li&gt;Although not technically challenging, I guided my teammates through building their first iOS app.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 20 Mar 2016 14:24:00 -0500</pubDate>
-        <link>https://monte9.github.io//2016/hackathons/</link>
-        <guid isPermaLink="true">https://monte9.github.io//2016/hackathons/</guid>
-        
-        <category>tech</category>
         
         
         <category>blogs</category>
