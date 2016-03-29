@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Mar 2016 09:11:41 -0700</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2016 09:11:41 -0700</lastBuildDate>
+    <pubDate>Tue, 29 Mar 2016 09:35:44 -0700</pubDate>
+    <lastBuildDate>Tue, 29 Mar 2016 09:35:44 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -103,263 +103,65 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;h3 id=&quot;cute-bunny-app&quot;&gt;Cute Bunny App:&lt;/h3&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9cutebunnyapp-cute-bunny-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt; Cute Bunny App: &lt;/a&gt;&lt;/h3&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I am really passionate about iOS development and I find developing new iOS apps challenging and fun. I am looking for internship/ full-time opportunities as an iOS Developer to work on ideas that are making (or will make) a difference.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/CuteBunny.gif&quot; alt=&quot;Cute Bunny iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/FlickM.gif&quot; alt=&quot;FlickM iOS App&quot; /&gt;
-&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/CuteBunny-final.gif&quot; alt=&quot;My Profile Photo&quot; /&gt;
-&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/CuteBunny-final.gif&quot; alt=&quot;My Profile Photo&quot; /&gt;
-## Code Samples-
+&lt;p&gt;An iOS app written in Swift 2.1 that displays gifs of cute bunnies + trending gifs using the Giphy APIs. This was inspired by &lt;a href=&quot;http://www.randomgoat.com/&quot;&gt;http://www.randomgoat.com/&lt;/a&gt;&lt;/p&gt;
 
-- Tab Bar setup
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/CuteBunny.gif&quot; alt=&quot;Cute Bunny iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-```swift
-func setupTabBars() {
-    // Set up the Tweets View Controller
-    let tweetsNavigationController = storyboard.instantiateViewControllerWithIdentifier(&quot;TweetsNavigationController&quot;) as! UINavigationController
-    let tweetsViewController = tweetsNavigationController.topViewController as! TweetsViewController
-    tweetsNavigationController.tabBarItem.title = &quot;Home&quot;
-    tweetsNavigationController.tabBarItem.image = UIImage(named: &quot;home&quot;)
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9moviesdbapp-codepathu-flickm-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt; FlickM App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-    //Customize Tweets navigation bar UI
-    tweetsNavigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(rgba: &quot;#55acee&quot;).CGColor]
+&lt;p&gt;FlickM is a movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.&lt;/p&gt;
 
-    // Set up the Home View Controller
-    let meViewController = storyboard.instantiateViewControllerWithIdentifier(&quot;ProfileViewController&quot;)
-    meViewController.tabBarItem.title = &quot;Me&quot;
-    meViewController.tabBarItem.image = UIImage(named: &quot;me&quot;)
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/FlickM.gif&quot; alt=&quot;FlickM iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-    // Set up the Tab Bar Controller to have two tabs
-    tabBarController.viewControllers = [tweetsNavigationController, meViewController]
-    UITabBar.appearance().tintColor = UIColor(rgba: &quot;#55acee&quot;)
-    //    UITabBar.appearance().barTintColor = UIColor.blackColor()
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9twitterapp-codepathu-twitter-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt; Twitter App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-    // Create an Image View to replace the Title View
-    var imageView: UIImageView = UIImageView(frame: CGRectMake(0.0, 0.0, 40.0, 40.0))
-    imageView.contentMode = UIViewContentMode.ScaleAspectFit
-    var image: UIImage = UIImage(named: &quot;Icon-Small-50&quot;)!
-    imageView.image = image
-    tweetsNavigationController.navigationBar.topItem?.titleView = imageView
+&lt;p&gt;TwitterM is a basic twitter app to read and compose tweets the Twitter API.&lt;/p&gt;
 
-    // Make the Tab Bar Controller the root view controller
-    window?.rootViewController = tabBarController
-    window?.makeKeyAndVisible()
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/Twitter.gif&quot; alt=&quot;Twitter iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-}
-```
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9yelpapp-codepathu-yelp-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt; Yelp App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;p&gt;YelpM is a Yelp search app using the Yelp API.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/YelpM.gif&quot; alt=&quot;Yelp iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-- GET Request
+&lt;h2 id=&quot;tools-&quot;&gt;Tools-&lt;/h2&gt;
 
-```swift
-func makeSearchCallWithCompletion(completion: (gifs: [Gif]?, error: NSError?) -&amp;gt; ()) {
-    let url = NSURL(string:&quot;http://api.giphy.com/v1/gifs/search?q=\(searchTerm)&amp;amp;api_key=\(publicBetaApiKey)&quot;)
+&lt;ol&gt;
+  &lt;li&gt;Written in Swift&lt;/li&gt;
+  &lt;li&gt;Use Cocoapods&lt;/li&gt;
+  &lt;li&gt;Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)&lt;/li&gt;
+  &lt;li&gt;Git for source control via terminal&lt;/li&gt;
+&lt;/ol&gt;
 
-    let request = NSURLRequest(URL: url!)
-    let session = NSURLSession(
-        configuration: NSURLSessionConfiguration.defaultSessionConfiguration(),
-        delegate:nil,
-        delegateQueue:NSOperationQueue.mainQueue()
-    )
+&lt;h2 id=&quot;other-resources-&quot;&gt;Other resources-&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepath.com/&quot;&gt;CodePath University&lt;/a&gt;: &lt;em&gt;“Without CodePath, I would still be trying to learn swift from a physical book”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;: &lt;em&gt;“Helping teams everywhere ‘Be less busy’“&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;LiceCap&lt;/a&gt;: &lt;em&gt;“Gifs created with LiceCap”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://icons8.com/&quot;&gt;icons8&lt;/a&gt;: &lt;em&gt;“All the Icons You Need. Guaranteed.”&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-    let task : NSURLSessionDataTask = session.dataTaskWithRequest(request,
-        completionHandler: { (dataOrNil, response, error) in
-            if let data = dataOrNil {
-                if let responseDictionary = try! NSJSONSerialization.JSONObjectWithData(
-                    data, options:[]) as? NSDictionary {
-                        //print(responseDictionary)
-                        if (responseDictionary[&quot;data&quot;] != nil ) {
-
-                            self.gifs = Gif.gifsWithArray(responseDictionary[&quot;data&quot;] as! [NSDictionary])
-
-                            print(&quot;Connection to API successful!&quot;)
-                            completion(gifs: self.gifs, error: nil)
-                        }
-                        else {
-                            print(&quot;error&quot;)
-                            completion(gifs: nil, error: error)
-                        }
-                } else { completion(gifs: nil, error: error) }
-            } else { completion(gifs: nil, error: error) }
-    });
-    task.resume()
-}
-```
-
-
-
-- OAuth (for twitter)
-
-``` swift
-func openUrl(url: NSURL?) {
-
-    //Get access token
-    fetchAccessTokenWithPath(&quot;oauth/access_token&quot;, method: &quot;POST&quot;, requestToken: BDBOAuth1Credential(queryString: url!.query), success: { (accessToken: BDBOAuth1Credential!) -&amp;gt; Void in
-        print(&quot;Access Token received&quot;)
-
-        TwitterClient.sharedInstance.requestSerializer.saveAccessToken(
-            accessToken)
-
-        TwitterClient.sharedInstance.GET(&quot;1.1/account/verify_credentials.json&quot;, parameters: nil, success: { (operation: NSURLSessionDataTask, response: AnyObject?) -&amp;gt; Void in
-            //                print(&quot;user: \(response)&quot;)
-            var user = User(dictionary: response as! NSDictionary)
-            User.currentUser = user
-            print(&quot;user.name = \(user.name)&quot;)
-            self.loginCompletion!(user: user, error: nil)
-            }, failure: { (operation: NSURLSessionDataTask?, error: NSError) -&amp;gt; Void in
-                print(&quot;error: \(error)&quot;)
-                self.loginCompletion?(user: nil, error: error)
-        })
-
-        })
-        { (error: NSError!) -&amp;gt; Void in
-            print(&quot;Access Token error&quot;)
-            self.loginCompletion?(user: nil, error: error)
-    }
-
-}
-
-func loginWithCompletion(completion: (user: User?, error: NSError?) -&amp;gt; ()) {
-    loginCompletion = completion
-
-    //remove access token if it exist previously
-    TwitterClient.sharedInstance.requestSerializer.removeAccessToken()
-
-    //Getting the request token and redirect to authorization page
-    TwitterClient.sharedInstance.fetchRequestTokenWithPath(&quot;oauth/request_token&quot;, method: &quot;GET&quot;, callbackURL: NSURL(string: &quot;michokan://oauth&quot;), scope: nil, success: { (requestToken: BDBOAuth1Credential!) -&amp;gt; Void in
-        print(&quot;Got request token&quot;)
-        var authURL = NSURL(string: &quot;https://api.twitter.com/oauth/authorize?oauth_token=\(requestToken.token)&quot;)
-        UIApplication.sharedApplication().openURL(authURL!)
-
-        })
-        { (error: NSError!) -&amp;gt; Void in
-            print(&quot;Failed to get request token:  \(error)&quot;)
-            self.loginCompletion?(user: nil, error: error)
-    }
-    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-}
-```
-
-
-
-- Map View
-
-``` swift 
-//use location manager to get the current location
-locationManager = CLLocationManager()
-locationManager.delegate = self
-locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
-locationManager.distanceFilter = 200
-locationManager.requestWhenInUseAuthorization()
-
-mapView.delegate = self
-
-func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-    if status == CLAuthorizationStatus.AuthorizedWhenInUse {
-        locationManager.startUpdatingLocation()
-    }
-}
-
-func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -&amp;gt; MKAnnotationView? {
-    let identifier = &quot;customAnnotationView&quot;
-
-    // custom image annotation
-    var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
-    if (annotationView == nil) {
-        annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-    }
-    else {
-        annotationView!.annotation = annotation
-    }
-    annotationView!.image = UIImage(named: &quot;business&quot;)
-    annotationView!.canShowCallout = true
-    return annotationView
-}
-
-public func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, didChangeDragState newState: MKAnnotationViewDragState, fromOldState oldState: MKAnnotationViewDragState) {
-    mapView.reloadInputViews()
-}
-
-func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-    if let location = locations.first {
-        let span = MKCoordinateSpanMake(0.1, 0.1)
-        let region = MKCoordinateRegionMake(location.coordinate, span)
-        region.center
-        mapView.setRegion(region, animated: false)
-    }
-}
-
-func addAnnotationAtCoordinate(coordinate: CLLocationCoordinate2D, title: String) {
-    let annotation = MKPointAnnotation()
-    annotation.coordinate = coordinate
-    annotation.title = title
-    mapView.addAnnotation(annotation)
-    //  print(&quot;annotation added&quot;)
-}
-
-func goToLocation(location: CLLocation) {
-    let span = MKCoordinateSpanMake(0.1, 0.1)
-    let region = MKCoordinateRegionMake(location.coordinate, span)
-    mapView.setRegion(region, animated: false)
-}
-```
-
-
-
-- Search for table views/ collection views
-
-``` swift
-func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
-    searchResults = searchText.isEmpty ? businesses : businesses!.filter({ (business: Business) -&amp;gt; Bool in
-        return (business.name)!.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil
-    })
-    businessTableView.reloadData()
-}
-```
-
-
-
-- Gif playback (using Gifu library)
-
-``` swift 
-func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
-    print(&quot;cell click detected index path \(indexPath.row)&quot;)
-
-    let cell = tableView.dequeueReusableCellWithIdentifier(&quot;cell&quot;, forIndexPath: indexPath) as! GifCell
-
-    var gifData = NSData(contentsOfURL: NSURL(string: gifs![indexPath.row].playingImageUrl!)!)
-
-    cell.gifImageView.prepareForAnimation(imageData: gifData!)
-    cell.gifImageView.startAnimatingGIF()
-}
-```
-
-
-## Tools-
-
-1. Written in Swift
-2. Use Cocoapods
-3. Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)
-4. Git for source control via terminal
-
-## Other resources-
-1. [CodePath University][codepath]: _&quot;Without CodePath, I would still be trying to learn swift from a physical book&quot;_
-2. [Slack][slack]: _&quot;Helping teams everywhere &#39;Be less busy&#39;&quot;_
-3. [LiceCap][licecap]: _&quot;Gifs created with LiceCap&quot;_
-4. [icons8][icons8]: _&quot;All the Icons You Need. Guaranteed.&quot;_
-
-[codepath]:      https://codepath.com/
-[slack]:   https://slack.com/
-[licecap]: http://www.cockos.com/licecap/
-[icons8]: https://icons8.com/
-&lt;/center&gt;
 </description>
         <pubDate>Mon, 21 Mar 2016 12:24:00 -0700</pubDate>
         <link>https://monte9.github.io//2016/ios-portfolio/</link>
