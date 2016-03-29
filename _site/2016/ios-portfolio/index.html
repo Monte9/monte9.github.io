@@ -172,252 +172,267 @@
 
 <p><span class="ballot_box_with_check"></span> Camera</p>
 
-<h2 id="code-samples-">Code Samples-</h2>
+<h1 id="demo-apps-">Demo Apps-</h1>
 
 <ul>
-  <li>Tab Bar setup</li>
+  <li>
+    <h3 id="cute-bunny-app">Cute Bunny App:</h3>
+  </li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">setupTabBars</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// Set up the Tweets View Controller</span>
-    <span class="k">let</span> <span class="nv">tweetsNavigationController</span> <span class="o">=</span> <span class="n">storyboard</span><span class="o">.</span><span class="nf">instantiateViewControllerWithIdentifier</span><span class="p">(</span><span class="s">"TweetsNavigationController"</span><span class="p">)</span> <span class="k">as!</span> <span class="kt">UINavigationController</span>
-    <span class="k">let</span> <span class="nv">tweetsViewController</span> <span class="o">=</span> <span class="n">tweetsNavigationController</span><span class="o">.</span><span class="n">topViewController</span> <span class="k">as!</span> <span class="kt">TweetsViewController</span>
-    <span class="n">tweetsNavigationController</span><span class="o">.</span><span class="n">tabBarItem</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">"Home"</span>
-    <span class="n">tweetsNavigationController</span><span class="o">.</span><span class="n">tabBarItem</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"home"</span><span class="p">)</span>
+<p>I am really passionate about iOS development and I find developing new iOS apps challenging and fun. I am looking for internship/ full-time opportunities as an iOS Developer to work on ideas that are making (or will make) a difference.
+<br /></p>
+<center><a href="https://github.com/Monte9/CuteBunnyApp"><img height="500" width="300" src="/images/CuteBunny.gif" alt="Cute Bunny iOS App" /></a>
+<br /><br />
+<img height="500" width="300" src="/images/FlickM.gif" alt="FlickM iOS App" />
+<img height="500" width="300" src="/images/CuteBunny-final.gif" alt="My Profile Photo" />
+<img height="500" width="300" src="/images/CuteBunny-final.gif" alt="My Profile Photo" />
+## Code Samples-
 
-    <span class="c1">//Customize Tweets navigation bar UI</span>
-    <span class="n">tweetsNavigationController</span><span class="o">.</span><span class="n">navigationBar</span><span class="o">.</span><span class="n">titleTextAttributes</span> <span class="o">=</span> <span class="p">[</span><span class="kt">NSForegroundColorAttributeName</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">rgba</span><span class="p">:</span> <span class="s">"#55acee"</span><span class="p">)</span><span class="o">.</span><span class="kt">CGColor</span><span class="p">]</span>
+- Tab Bar setup
 
-    <span class="c1">// Set up the Home View Controller</span>
-    <span class="k">let</span> <span class="nv">meViewController</span> <span class="o">=</span> <span class="n">storyboard</span><span class="o">.</span><span class="nf">instantiateViewControllerWithIdentifier</span><span class="p">(</span><span class="s">"ProfileViewController"</span><span class="p">)</span>
-    <span class="n">meViewController</span><span class="o">.</span><span class="n">tabBarItem</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">"Me"</span>
-    <span class="n">meViewController</span><span class="o">.</span><span class="n">tabBarItem</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"me"</span><span class="p">)</span>
+```swift
+func setupTabBars() {
+    // Set up the Tweets View Controller
+    let tweetsNavigationController = storyboard.instantiateViewControllerWithIdentifier("TweetsNavigationController") as! UINavigationController
+    let tweetsViewController = tweetsNavigationController.topViewController as! TweetsViewController
+    tweetsNavigationController.tabBarItem.title = "Home"
+    tweetsNavigationController.tabBarItem.image = UIImage(named: "home")
 
-    <span class="c1">// Set up the Tab Bar Controller to have two tabs</span>
-    <span class="n">tabBarController</span><span class="o">.</span><span class="n">viewControllers</span> <span class="o">=</span> <span class="p">[</span><span class="n">tweetsNavigationController</span><span class="p">,</span> <span class="n">meViewController</span><span class="p">]</span>
-    <span class="kt">UITabBar</span><span class="o">.</span><span class="nf">appearance</span><span class="p">()</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">rgba</span><span class="p">:</span> <span class="s">"#55acee"</span><span class="p">)</span>
-    <span class="c1">//    UITabBar.appearance().barTintColor = UIColor.blackColor()</span>
+    //Customize Tweets navigation bar UI
+    tweetsNavigationController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(rgba: "#55acee").CGColor]
 
-    <span class="c1">// Create an Image View to replace the Title View</span>
-    <span class="k">var</span> <span class="nv">imageView</span><span class="p">:</span> <span class="kt">UIImageView</span> <span class="o">=</span> <span class="kt">UIImageView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRectMake</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">40.0</span><span class="p">,</span> <span class="mf">40.0</span><span class="p">))</span>
-    <span class="n">imageView</span><span class="o">.</span><span class="n">contentMode</span> <span class="o">=</span> <span class="kt">UIViewContentMode</span><span class="o">.</span><span class="kt">ScaleAspectFit</span>
-    <span class="k">var</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"Icon-Small-50"</span><span class="p">)</span><span class="o">!</span>
-    <span class="n">imageView</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="n">image</span>
-    <span class="n">tweetsNavigationController</span><span class="o">.</span><span class="n">navigationBar</span><span class="o">.</span><span class="n">topItem</span><span class="p">?</span><span class="o">.</span><span class="n">titleView</span> <span class="o">=</span> <span class="n">imageView</span>
+    // Set up the Home View Controller
+    let meViewController = storyboard.instantiateViewControllerWithIdentifier("ProfileViewController")
+    meViewController.tabBarItem.title = "Me"
+    meViewController.tabBarItem.image = UIImage(named: "me")
 
-    <span class="c1">// Make the Tab Bar Controller the root view controller</span>
-    <span class="n">window</span><span class="p">?</span><span class="o">.</span><span class="n">rootViewController</span> <span class="o">=</span> <span class="n">tabBarController</span>
-    <span class="n">window</span><span class="p">?</span><span class="o">.</span><span class="nf">makeKeyAndVisible</span><span class="p">()</span>
+    // Set up the Tab Bar Controller to have two tabs
+    tabBarController.viewControllers = [tweetsNavigationController, meViewController]
+    UITabBar.appearance().tintColor = UIColor(rgba: "#55acee")
+    //    UITabBar.appearance().barTintColor = UIColor.blackColor()
 
-<span class="p">}</span>
-</code></pre>
-</div>
+    // Create an Image View to replace the Title View
+    var imageView: UIImageView = UIImageView(frame: CGRectMake(0.0, 0.0, 40.0, 40.0))
+    imageView.contentMode = UIViewContentMode.ScaleAspectFit
+    var image: UIImage = UIImage(named: "Icon-Small-50")!
+    imageView.image = image
+    tweetsNavigationController.navigationBar.topItem?.titleView = imageView
 
-<ul>
-  <li>GET Request</li>
-</ul>
+    // Make the Tab Bar Controller the root view controller
+    window?.rootViewController = tabBarController
+    window?.makeKeyAndVisible()
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">makeSearchCallWithCompletion</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="p">[</span><span class="kt">Gif</span><span class="p">]?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="p">{</span>
-    <span class="k">let</span> <span class="nv">url</span> <span class="o">=</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span><span class="s">"http://api.giphy.com/v1/gifs/search?q=</span><span class="se">\(</span><span class="n">searchTerm</span><span class="se">)</span><span class="s">&amp;api_key=</span><span class="se">\(</span><span class="n">publicBetaApiKey</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+}
+```
 
-    <span class="k">let</span> <span class="nv">request</span> <span class="o">=</span> <span class="kt">NSURLRequest</span><span class="p">(</span><span class="kt">URL</span><span class="p">:</span> <span class="n">url</span><span class="o">!</span><span class="p">)</span>
-    <span class="k">let</span> <span class="nv">session</span> <span class="o">=</span> <span class="kt">NSURLSession</span><span class="p">(</span>
-        <span class="nv">configuration</span><span class="p">:</span> <span class="kt">NSURLSessionConfiguration</span><span class="o">.</span><span class="nf">defaultSessionConfiguration</span><span class="p">(),</span>
-        <span class="nv">delegate</span><span class="p">:</span><span class="kc">nil</span><span class="p">,</span>
-        <span class="nv">delegateQueue</span><span class="p">:</span><span class="kt">NSOperationQueue</span><span class="o">.</span><span class="nf">mainQueue</span><span class="p">()</span>
-    <span class="p">)</span>
 
-    <span class="k">let</span> <span class="nv">task</span> <span class="p">:</span> <span class="kt">NSURLSessionDataTask</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="nf">dataTaskWithRequest</span><span class="p">(</span><span class="n">request</span><span class="p">,</span>
-        <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">dataOrNil</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
-            <span class="k">if</span> <span class="k">let</span> <span class="nv">data</span> <span class="o">=</span> <span class="n">dataOrNil</span> <span class="p">{</span>
-                <span class="k">if</span> <span class="k">let</span> <span class="nv">responseDictionary</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">NSJSONSerialization</span><span class="o">.</span><span class="kt">JSONObjectWithData</span><span class="p">(</span>
-                    <span class="n">data</span><span class="p">,</span> <span class="nv">options</span><span class="p">:[])</span> <span class="k">as?</span> <span class="kt">NSDictionary</span> <span class="p">{</span>
-                        <span class="c1">//print(responseDictionary)</span>
-                        <span class="k">if</span> <span class="p">(</span><span class="n">responseDictionary</span><span class="p">[</span><span class="s">"data"</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">)</span> <span class="p">{</span>
 
-                            <span class="k">self</span><span class="o">.</span><span class="n">gifs</span> <span class="o">=</span> <span class="kt">Gif</span><span class="o">.</span><span class="nf">gifsWithArray</span><span class="p">(</span><span class="n">responseDictionary</span><span class="p">[</span><span class="s">"data"</span><span class="p">]</span> <span class="k">as!</span> <span class="p">[</span><span class="kt">NSDictionary</span><span class="p">])</span>
+- GET Request
 
-                            <span class="nf">print</span><span class="p">(</span><span class="s">"Connection to API successful!"</span><span class="p">)</span>
-                            <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">gifs</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-                        <span class="p">}</span>
-                        <span class="k">else</span> <span class="p">{</span>
-                            <span class="nf">print</span><span class="p">(</span><span class="s">"error"</span><span class="p">)</span>
-                            <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
-                        <span class="p">}</span>
-                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span> <span class="p">}</span>
-            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="nf">completion</span><span class="p">(</span><span class="nv">gifs</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span> <span class="p">}</span>
-    <span class="p">});</span>
-    <span class="n">task</span><span class="o">.</span><span class="nf">resume</span><span class="p">()</span>
-<span class="p">}</span>
-</code></pre>
-</div>
+```swift
+func makeSearchCallWithCompletion(completion: (gifs: [Gif]?, error: NSError?) -&gt; ()) {
+    let url = NSURL(string:"http://api.giphy.com/v1/gifs/search?q=\(searchTerm)&amp;api_key=\(publicBetaApiKey)")
 
-<ul>
-  <li>OAuth (for twitter)</li>
-</ul>
+    let request = NSURLRequest(URL: url!)
+    let session = NSURLSession(
+        configuration: NSURLSessionConfiguration.defaultSessionConfiguration(),
+        delegate:nil,
+        delegateQueue:NSOperationQueue.mainQueue()
+    )
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">openUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">?)</span> <span class="p">{</span>
+    let task : NSURLSessionDataTask = session.dataTaskWithRequest(request,
+        completionHandler: { (dataOrNil, response, error) in
+            if let data = dataOrNil {
+                if let responseDictionary = try! NSJSONSerialization.JSONObjectWithData(
+                    data, options:[]) as? NSDictionary {
+                        //print(responseDictionary)
+                        if (responseDictionary["data"] != nil ) {
 
-    <span class="c1">//Get access token</span>
-    <span class="nf">fetchAccessTokenWithPath</span><span class="p">(</span><span class="s">"oauth/access_token"</span><span class="p">,</span> <span class="nv">method</span><span class="p">:</span> <span class="s">"POST"</span><span class="p">,</span> <span class="nv">requestToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="p">(</span><span class="nv">queryString</span><span class="p">:</span> <span class="n">url</span><span class="o">!.</span><span class="n">query</span><span class="p">),</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">accessToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-        <span class="nf">print</span><span class="p">(</span><span class="s">"Access Token received"</span><span class="p">)</span>
+                            self.gifs = Gif.gifsWithArray(responseDictionary["data"] as! [NSDictionary])
 
-        <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">requestSerializer</span><span class="o">.</span><span class="nf">saveAccessToken</span><span class="p">(</span>
-            <span class="n">accessToken</span><span class="p">)</span>
+                            print("Connection to API successful!")
+                            completion(gifs: self.gifs, error: nil)
+                        }
+                        else {
+                            print("error")
+                            completion(gifs: nil, error: error)
+                        }
+                } else { completion(gifs: nil, error: error) }
+            } else { completion(gifs: nil, error: error) }
+    });
+    task.resume()
+}
+```
 
-        <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="kt">GET</span><span class="p">(</span><span class="s">"1.1/account/verify_credentials.json"</span><span class="p">,</span> <span class="nv">parameters</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">operation</span><span class="p">:</span> <span class="kt">NSURLSessionDataTask</span><span class="p">,</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-            <span class="c1">//                print("user: \(response)")</span>
-            <span class="k">var</span> <span class="nv">user</span> <span class="o">=</span> <span class="kt">User</span><span class="p">(</span><span class="nv">dictionary</span><span class="p">:</span> <span class="n">response</span> <span class="k">as!</span> <span class="kt">NSDictionary</span><span class="p">)</span>
-            <span class="kt">User</span><span class="o">.</span><span class="n">currentUser</span> <span class="o">=</span> <span class="n">user</span>
-            <span class="nf">print</span><span class="p">(</span><span class="s">"user.name = </span><span class="se">\(</span><span class="n">user</span><span class="o">.</span><span class="n">name</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="o">!</span><span class="p">(</span><span class="nv">user</span><span class="p">:</span> <span class="n">user</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-            <span class="p">},</span> <span class="nv">failure</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">operation</span><span class="p">:</span> <span class="kt">NSURLSessionDataTask</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-                <span class="nf">print</span><span class="p">(</span><span class="s">"error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-                <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
-        <span class="p">})</span>
 
-        <span class="p">})</span>
-        <span class="p">{</span> <span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-            <span class="nf">print</span><span class="p">(</span><span class="s">"Access Token error"</span><span class="p">)</span>
-            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
-    <span class="p">}</span>
 
-<span class="p">}</span>
+- OAuth (for twitter)
 
-<span class="kd">func</span> <span class="nf">loginWithCompletion</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(</span><span class="nv">user</span><span class="p">:</span> <span class="kt">User</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="p">{</span>
-    <span class="n">loginCompletion</span> <span class="o">=</span> <span class="n">completion</span>
+``` swift
+func openUrl(url: NSURL?) {
 
-    <span class="c1">//remove access token if it exist previously</span>
-    <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="n">requestSerializer</span><span class="o">.</span><span class="nf">removeAccessToken</span><span class="p">()</span>
+    //Get access token
+    fetchAccessTokenWithPath("oauth/access_token", method: "POST", requestToken: BDBOAuth1Credential(queryString: url!.query), success: { (accessToken: BDBOAuth1Credential!) -&gt; Void in
+        print("Access Token received")
 
-    <span class="c1">//Getting the request token and redirect to authorization page</span>
-    <span class="kt">TwitterClient</span><span class="o">.</span><span class="n">sharedInstance</span><span class="o">.</span><span class="nf">fetchRequestTokenWithPath</span><span class="p">(</span><span class="s">"oauth/request_token"</span><span class="p">,</span> <span class="nv">method</span><span class="p">:</span> <span class="s">"GET"</span><span class="p">,</span> <span class="nv">callbackURL</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"michokan://oauth"</span><span class="p">),</span> <span class="nv">scope</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="nv">requestToken</span><span class="p">:</span> <span class="kt">BDBOAuth1Credential</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-        <span class="nf">print</span><span class="p">(</span><span class="s">"Got request token"</span><span class="p">)</span>
-        <span class="k">var</span> <span class="nv">authURL</span> <span class="o">=</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"https://api.twitter.com/oauth/authorize?oauth_token=</span><span class="se">\(</span><span class="n">requestToken</span><span class="o">.</span><span class="n">token</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-        <span class="kt">UIApplication</span><span class="o">.</span><span class="nf">sharedApplication</span><span class="p">()</span><span class="o">.</span><span class="nf">openURL</span><span class="p">(</span><span class="n">authURL</span><span class="o">!</span><span class="p">)</span>
+        TwitterClient.sharedInstance.requestSerializer.saveAccessToken(
+            accessToken)
 
-        <span class="p">})</span>
-        <span class="p">{</span> <span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="k">in</span>
-            <span class="nf">print</span><span class="p">(</span><span class="s">"Failed to get request token:  </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-            <span class="k">self</span><span class="o">.</span><span class="nf">loginCompletion</span><span class="p">?(</span><span class="nv">user</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="n">error</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="c1">//    manager.requestSerializer = [AFJSONRequestSerializer serializer];</span>
-<span class="p">}</span>
-</code></pre>
-</div>
+        TwitterClient.sharedInstance.GET("1.1/account/verify_credentials.json", parameters: nil, success: { (operation: NSURLSessionDataTask, response: AnyObject?) -&gt; Void in
+            //                print("user: \(response)")
+            var user = User(dictionary: response as! NSDictionary)
+            User.currentUser = user
+            print("user.name = \(user.name)")
+            self.loginCompletion!(user: user, error: nil)
+            }, failure: { (operation: NSURLSessionDataTask?, error: NSError) -&gt; Void in
+                print("error: \(error)")
+                self.loginCompletion?(user: nil, error: error)
+        })
 
-<ul>
-  <li>Map View</li>
-</ul>
+        })
+        { (error: NSError!) -&gt; Void in
+            print("Access Token error")
+            self.loginCompletion?(user: nil, error: error)
+    }
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="c1">//use location manager to get the current location</span>
-<span class="n">locationManager</span> <span class="o">=</span> <span class="kt">CLLocationManager</span><span class="p">()</span>
-<span class="n">locationManager</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
-<span class="n">locationManager</span><span class="o">.</span><span class="n">desiredAccuracy</span> <span class="o">=</span> <span class="n">kCLLocationAccuracyNearestTenMeters</span>
-<span class="n">locationManager</span><span class="o">.</span><span class="n">distanceFilter</span> <span class="o">=</span> <span class="mi">200</span>
-<span class="n">locationManager</span><span class="o">.</span><span class="nf">requestWhenInUseAuthorization</span><span class="p">()</span>
+}
 
-<span class="n">mapView</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+func loginWithCompletion(completion: (user: User?, error: NSError?) -&gt; ()) {
+    loginCompletion = completion
 
-<span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didChangeAuthorizationStatus</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">CLAuthorizationStatus</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="kt">CLAuthorizationStatus</span><span class="o">.</span><span class="kt">AuthorizedWhenInUse</span> <span class="p">{</span>
-        <span class="n">locationManager</span><span class="o">.</span><span class="nf">startUpdatingLocation</span><span class="p">()</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+    //remove access token if it exist previously
+    TwitterClient.sharedInstance.requestSerializer.removeAccessToken()
 
-<span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">viewForAnnotation</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MKAnnotation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">MKAnnotationView</span><span class="p">?</span> <span class="p">{</span>
-    <span class="k">let</span> <span class="nv">identifier</span> <span class="o">=</span> <span class="s">"customAnnotationView"</span>
+    //Getting the request token and redirect to authorization page
+    TwitterClient.sharedInstance.fetchRequestTokenWithPath("oauth/request_token", method: "GET", callbackURL: NSURL(string: "michokan://oauth"), scope: nil, success: { (requestToken: BDBOAuth1Credential!) -&gt; Void in
+        print("Got request token")
+        var authURL = NSURL(string: "https://api.twitter.com/oauth/authorize?oauth_token=\(requestToken.token)")
+        UIApplication.sharedApplication().openURL(authURL!)
 
-    <span class="c1">// custom image annotation</span>
-    <span class="k">var</span> <span class="nv">annotationView</span> <span class="o">=</span> <span class="n">mapView</span><span class="o">.</span><span class="nf">dequeueReusableAnnotationViewWithIdentifier</span><span class="p">(</span><span class="n">identifier</span><span class="p">)</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">annotationView</span> <span class="o">==</span> <span class="kc">nil</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">annotationView</span> <span class="o">=</span> <span class="kt">MKAnnotationView</span><span class="p">(</span><span class="nv">annotation</span><span class="p">:</span> <span class="n">annotation</span><span class="p">,</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="n">identifier</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="k">else</span> <span class="p">{</span>
-        <span class="n">annotationView</span><span class="o">!.</span><span class="n">annotation</span> <span class="o">=</span> <span class="n">annotation</span>
-    <span class="p">}</span>
-    <span class="n">annotationView</span><span class="o">!.</span><span class="n">image</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"business"</span><span class="p">)</span>
-    <span class="n">annotationView</span><span class="o">!.</span><span class="n">canShowCallout</span> <span class="o">=</span> <span class="kc">true</span>
-    <span class="k">return</span> <span class="n">annotationView</span>
-<span class="p">}</span>
+        })
+        { (error: NSError!) -&gt; Void in
+            print("Failed to get request token:  \(error)")
+            self.loginCompletion?(user: nil, error: error)
+    }
+    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+}
+```
 
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">annotationView</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">,</span> <span class="n">didChangeDragState</span> <span class="nv">newState</span><span class="p">:</span> <span class="kt">MKAnnotationViewDragState</span><span class="p">,</span> <span class="n">fromOldState</span> <span class="nv">oldState</span><span class="p">:</span> <span class="kt">MKAnnotationViewDragState</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">mapView</span><span class="o">.</span><span class="nf">reloadInputViews</span><span class="p">()</span>
-<span class="p">}</span>
 
-<span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didUpdateLocations</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLLocation</span><span class="p">])</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="k">let</span> <span class="nv">location</span> <span class="o">=</span> <span class="n">locations</span><span class="o">.</span><span class="n">first</span> <span class="p">{</span>
-        <span class="k">let</span> <span class="nv">span</span> <span class="o">=</span> <span class="kt">MKCoordinateSpanMake</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
-        <span class="k">let</span> <span class="nv">region</span> <span class="o">=</span> <span class="kt">MKCoordinateRegionMake</span><span class="p">(</span><span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="p">,</span> <span class="n">span</span><span class="p">)</span>
-        <span class="n">region</span><span class="o">.</span><span class="n">center</span>
-        <span class="n">mapView</span><span class="o">.</span><span class="nf">setRegion</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
 
-<span class="kd">func</span> <span class="nf">addAnnotationAtCoordinate</span><span class="p">(</span><span class="nv">coordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">,</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">let</span> <span class="nv">annotation</span> <span class="o">=</span> <span class="kt">MKPointAnnotation</span><span class="p">()</span>
-    <span class="n">annotation</span><span class="o">.</span><span class="n">coordinate</span> <span class="o">=</span> <span class="n">coordinate</span>
-    <span class="n">annotation</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
-    <span class="n">mapView</span><span class="o">.</span><span class="nf">addAnnotation</span><span class="p">(</span><span class="n">annotation</span><span class="p">)</span>
-    <span class="c1">//  print("annotation added")</span>
-<span class="p">}</span>
+- Map View
 
-<span class="kd">func</span> <span class="nf">goToLocation</span><span class="p">(</span><span class="nv">location</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">let</span> <span class="nv">span</span> <span class="o">=</span> <span class="kt">MKCoordinateSpanMake</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
-    <span class="k">let</span> <span class="nv">region</span> <span class="o">=</span> <span class="kt">MKCoordinateRegionMake</span><span class="p">(</span><span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="p">,</span> <span class="n">span</span><span class="p">)</span>
-    <span class="n">mapView</span><span class="o">.</span><span class="nf">setRegion</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre>
-</div>
+``` swift 
+//use location manager to get the current location
+locationManager = CLLocationManager()
+locationManager.delegate = self
+locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+locationManager.distanceFilter = 200
+locationManager.requestWhenInUseAuthorization()
 
-<ul>
-  <li>Search for table views/ collection views</li>
-</ul>
+mapView.delegate = self
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">searchBar</span><span class="p">(</span><span class="nv">searchBar</span><span class="p">:</span> <span class="kt">UISearchBar</span><span class="p">,</span> <span class="n">textDidChange</span> <span class="nv">searchText</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">searchResults</span> <span class="o">=</span> <span class="n">searchText</span><span class="o">.</span><span class="n">isEmpty</span> <span class="p">?</span> <span class="nv">businesses</span> <span class="p">:</span> <span class="n">businesses</span><span class="o">!.</span><span class="nf">filter</span><span class="p">({</span> <span class="p">(</span><span class="nv">business</span><span class="p">:</span> <span class="kt">Business</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="k">in</span>
-        <span class="nf">return</span> <span class="p">(</span><span class="n">business</span><span class="o">.</span><span class="n">name</span><span class="p">)</span><span class="o">!.</span><span class="nf">rangeOfString</span><span class="p">(</span><span class="n">searchText</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="o">.</span><span class="kt">CaseInsensitiveSearch</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span>
-    <span class="p">})</span>
-    <span class="n">businessTableView</span><span class="o">.</span><span class="nf">reloadData</span><span class="p">()</span>
-<span class="p">}</span>
-</code></pre>
-</div>
+func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+    if status == CLAuthorizationStatus.AuthorizedWhenInUse {
+        locationManager.startUpdatingLocation()
+    }
+}
 
-<ul>
-  <li>Gif playback (using Gifu library)</li>
-</ul>
+func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -&gt; MKAnnotationView? {
+    let identifier = "customAnnotationView"
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAtIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">NSIndexPath</span><span class="p">)</span> <span class="p">{</span>
+    // custom image annotation
+    var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
+    if (annotationView == nil) {
+        annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+    }
+    else {
+        annotationView!.annotation = annotation
+    }
+    annotationView!.image = UIImage(named: "business")
+    annotationView!.canShowCallout = true
+    return annotationView
+}
 
-    <span class="nf">print</span><span class="p">(</span><span class="s">"cell click detected index path </span><span class="se">\(</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+public func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, didChangeDragState newState: MKAnnotationViewDragState, fromOldState oldState: MKAnnotationViewDragState) {
+    mapView.reloadInputViews()
+}
 
-    <span class="k">let</span> <span class="nv">cell</span> <span class="o">=</span> <span class="n">tableView</span><span class="o">.</span><span class="nf">dequeueReusableCellWithIdentifier</span><span class="p">(</span><span class="s">"cell"</span><span class="p">,</span> <span class="nv">forIndexPath</span><span class="p">:</span> <span class="n">indexPath</span><span class="p">)</span> <span class="k">as!</span> <span class="kt">GifCell</span>
+func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    if let location = locations.first {
+        let span = MKCoordinateSpanMake(0.1, 0.1)
+        let region = MKCoordinateRegionMake(location.coordinate, span)
+        region.center
+        mapView.setRegion(region, animated: false)
+    }
+}
 
-    <span class="k">var</span> <span class="nv">gifData</span> <span class="o">=</span> <span class="kt">NSData</span><span class="p">(</span><span class="nv">contentsOfURL</span><span class="p">:</span> <span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="n">gifs</span><span class="o">!</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">playingImageUrl</span><span class="o">!</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+func addAnnotationAtCoordinate(coordinate: CLLocationCoordinate2D, title: String) {
+    let annotation = MKPointAnnotation()
+    annotation.coordinate = coordinate
+    annotation.title = title
+    mapView.addAnnotation(annotation)
+    //  print("annotation added")
+}
 
-    <span class="n">cell</span><span class="o">.</span><span class="n">gifImageView</span><span class="o">.</span><span class="nf">prepareForAnimation</span><span class="p">(</span><span class="nv">imageData</span><span class="p">:</span> <span class="n">gifData</span><span class="o">!</span><span class="p">)</span>
-    <span class="n">cell</span><span class="o">.</span><span class="n">gifImageView</span><span class="o">.</span><span class="nf">startAnimatingGIF</span><span class="p">()</span>
-<span class="p">}</span>
-</code></pre>
-</div>
+func goToLocation(location: CLLocation) {
+    let span = MKCoordinateSpanMake(0.1, 0.1)
+    let region = MKCoordinateRegionMake(location.coordinate, span)
+    mapView.setRegion(region, animated: false)
+}
+```
 
-<h2 id="tools-">Tools-</h2>
 
-<ol>
-  <li>Written in Swift</li>
-  <li>Use Cocoapods</li>
-  <li>Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)</li>
-  <li>Git for source control via terminal</li>
-</ol>
 
-<h2 id="other-resources-">Other resources-</h2>
-<ol>
-  <li><a href="https://codepath.com/">CodePath University</a>: <em>“Without CodePath, I would still be trying to learn swift from a physical book”</em></li>
-  <li><a href="https://slack.com/">Slack</a>: <em>“Helping teams everywhere ‘Be less busy’“</em></li>
-  <li><a href="http://www.cockos.com/licecap/">LiceCap</a>: <em>“Gifs created with LiceCap”</em></li>
-  <li><a href="https://icons8.com/">icons8</a>: <em>“All the Icons You Need. Guaranteed.”</em></li>
-</ol>
+- Search for table views/ collection views
 
+``` swift
+func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+    searchResults = searchText.isEmpty ? businesses : businesses!.filter({ (business: Business) -&gt; Bool in
+        return (business.name)!.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil
+    })
+    businessTableView.reloadData()
+}
+```
+
+
+
+- Gif playback (using Gifu library)
+
+``` swift 
+func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+
+    print("cell click detected index path \(indexPath.row)")
+
+    let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! GifCell
+
+    var gifData = NSData(contentsOfURL: NSURL(string: gifs![indexPath.row].playingImageUrl!)!)
+
+    cell.gifImageView.prepareForAnimation(imageData: gifData!)
+    cell.gifImageView.startAnimatingGIF()
+}
+```
+
+
+## Tools-
+
+1. Written in Swift
+2. Use Cocoapods
+3. Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)
+4. Git for source control via terminal
+
+## Other resources-
+1. [CodePath University][codepath]: _"Without CodePath, I would still be trying to learn swift from a physical book"_
+2. [Slack][slack]: _"Helping teams everywhere 'Be less busy'"_
+3. [LiceCap][licecap]: _"Gifs created with LiceCap"_
+4. [icons8][icons8]: _"All the Icons You Need. Guaranteed."_
+
+[codepath]:      https://codepath.com/
+[slack]:   https://slack.com/
+[licecap]: http://www.cockos.com/licecap/
+[icons8]: https://icons8.com/
+</center>
 
   </section>
   
