@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Mar 2016 09:35:44 -0700</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2016 09:35:44 -0700</lastBuildDate>
+    <pubDate>Sun, 03 Apr 2016 11:26:38 -0700</pubDate>
+    <lastBuildDate>Sun, 03 Apr 2016 11:26:38 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -103,14 +103,25 @@
 
 &lt;ul&gt;
   &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9likesapp-likes-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/LikesApp&quot;&gt; Likes App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Likes app is an iOS app that provides a uniform and simple UI for interacting with several websites and services. The gif below shows integration with Yelp API and saves your favorite resturatnts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/LikesApp&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Likes.gif&quot; alt=&quot;Likes iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
     &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9cutebunnyapp-cute-bunny-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt; Cute Bunny App: &lt;/a&gt;&lt;/h3&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;An iOS app written in Swift 2.1 that displays gifs of cute bunnies + trending gifs using the Giphy APIs. This was inspired by &lt;a href=&quot;http://www.randomgoat.com/&quot;&gt;http://www.randomgoat.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/CuteBunny.gif&quot; alt=&quot;Cute Bunny iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/CuteBunny.gif&quot; alt=&quot;Cute Bunny iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -120,18 +131,7 @@
 
 &lt;p&gt;FlickM is a movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/FlickM.gif&quot; alt=&quot;FlickM iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9twitterapp-codepathu-twitter-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt; Twitter App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;TwitterM is a basic twitter app to read and compose tweets the Twitter API.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/Twitter.gif&quot; alt=&quot;Twitter iOS App&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/FlickM.gif&quot; alt=&quot;FlickM iOS App&quot; /&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -142,7 +142,29 @@
 
 &lt;p&gt;YelpM is a Yelp search app using the Yelp API.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt;&lt;img height=&quot;500&quot; width=&quot;300&quot; src=&quot;/images/YelpM.gif&quot; alt=&quot;Yelp iOS App&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/YelpM.gif&quot; alt=&quot;Yelp iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9twitterapp-codepathu-twitter-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt; Twitter App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TwitterM is a basic twitter app to read and compose tweets the Twitter API.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Twitter.gif&quot; alt=&quot;Twitter iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9tinderapp-codepathu-tinder-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TinderApp-CodePathU&quot;&gt; Tinder App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tinder is an iOS app that is a clone of the Tinder app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TinderApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Tinder.gif&quot; alt=&quot;Tinder iOS App&quot; /&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;tools-&quot;&gt;Tools-&lt;/h2&gt;
