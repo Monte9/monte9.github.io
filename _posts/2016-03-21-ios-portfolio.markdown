@@ -30,7 +30,9 @@ I am really passionate about iOS development and I find developing new iOS apps 
 
 - ### <a href="https://github.com/Monte9/LikesApp"> Likes App: </a> 
 
-Likes app is an iOS app that provides a uniform and simple UI for interacting with several websites and services. The gif below shows integration with Yelp API and saves your favorite resturatnts.
+Likes app is an iOS app that provides a uniform and simple UI for interacting with several websites and services. 
+
+(The gif below shows integration with Yelp API and saves your favorite resturants.)
 
 <a href="https://github.com/Monte9/LikesApp"><img  height="600" width="320" src="{{ "images/Likes.gif" | prepend: site.baseurl }}" alt="Likes iOS App" /></a>
 <br /><br />
