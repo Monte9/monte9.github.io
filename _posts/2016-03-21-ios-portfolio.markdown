@@ -10,23 +10,22 @@ I am really passionate about iOS development and I find developing new iOS apps 
 
 ## Implemented features-
 
-{{ '[x]' | checked }} GET/POST Request (API Calls)
+- GET/POST Request (API Calls)
+- OAuth
+- Table View/ Collection View (duh..)
+- Pull to referesh & Infinite Scroll
+- Autolayout
+- Map View
+- Camera
 
-{{ '[x]' | checked }} OAuth
+## Demo Apps-
 
-{{ '[x]' | checked }} Table View/ Collection View (duh..)
+- ### <a href="https://github.com/VeMoJa/iStream"> iStream App: </a> 
 
-{{ '[x]' | checked }} Pull to referesh & Infinite Scroll
+iStream is an iOS App that lets users share their day through adding pictures to various streams. Streams can be converted into gifs and shared on Twitter, Facebook and other social networks.
 
-{{ '[x]' | checked }} Autolayout
-
-{{ '[x]' | checked }} Map View
-
-{{ '[x]' | checked }} Camera
-
-
-# Demo Apps-
-
+<a href="https://github.com/VeMoJa/iStream"><img  height="600" width="320" src="{{ "images/iStream.gif" | prepend: site.baseurl }}" alt="iStream iOS App" /></a>
+<br /><br />
 
 - ### <a href="https://github.com/Monte9/LikesApp"> Likes App: </a> 
 
@@ -70,6 +69,13 @@ TwitterM is a basic twitter app to read and compose tweets the Twitter API.
 Tinder is an iOS app that is a clone of the Tinder app.
 
 <a href="https://github.com/Monte9/TinderApp-CodePathU"><img  height="600" width="320" src="{{ "images/Tinder.gif" | prepend: site.baseurl }}" alt="Tinder iOS App" ></a>
+<br /><br />
+
+- ### <a href="https://github.com/Monte9/Emoji-Artbook"> Emoji Artbook: </a>
+
+Emoji Artbook is an iOS app for artist to create art with emoji's and images.
+
+<a href="https://github.com/Monte9/Emoji-Artbook"><img  height="600" width="320" src="{{ "images/EmojiArtbook.gif" | prepend: site.baseurl }}" alt="Emoji Artbook iOS App" ></a>
 <br /><br />
 
 

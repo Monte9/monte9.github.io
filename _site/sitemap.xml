@@ -46,12 +46,27 @@
     </url>
     
   
+    
+    <url>
+      <loc>https://monte9.github.io/2016/lightning-talk/</loc>
+      
+        <lastmod>2016-03-19T12:24:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
   
     
     <url>
       <loc>https://monte9.github.io/categories/</loc>
       
-        <lastmod>2016-04-03T11:29:25-07:00</lastmod>
+        <lastmod>2016-04-19T23:10:03-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +81,7 @@
     <url>
       <loc>https://monte9.github.io/feed.xml</loc>
       
-        <lastmod>2016-04-03T11:29:25-07:00</lastmod>
+        <lastmod>2016-04-19T23:10:03-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +96,7 @@
     <url>
       <loc>https://monte9.github.io/</loc>
       
-        <lastmod>2016-04-03T11:29:25-07:00</lastmod>
+        <lastmod>2016-04-19T23:10:03-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +111,7 @@
     <url>
       <loc>https://monte9.github.io/js/main.js</loc>
       
-        <lastmod>2016-04-03T11:29:25-07:00</lastmod>
+        <lastmod>2016-04-19T23:10:03-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,7 +128,7 @@
     <url>
       <loc>https://monte9.github.io/tags/</loc>
       
-        <lastmod>2016-04-03T11:29:25-07:00</lastmod>
+        <lastmod>2016-04-19T23:10:03-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

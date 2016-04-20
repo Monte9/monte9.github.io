@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Apr 2016 11:29:25 -0700</pubDate>
-    <lastBuildDate>Sun, 03 Apr 2016 11:29:25 -0700</lastBuildDate>
+    <pubDate>Tue, 19 Apr 2016 23:10:03 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2016 23:10:03 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -85,21 +85,28 @@
 
 &lt;h2 id=&quot;implemented-features-&quot;&gt;Implemented features-&lt;/h2&gt;
 
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; GET/POST Request (API Calls)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;GET/POST Request (API Calls)&lt;/li&gt;
+  &lt;li&gt;OAuth&lt;/li&gt;
+  &lt;li&gt;Table View/ Collection View (duh..)&lt;/li&gt;
+  &lt;li&gt;Pull to referesh &amp;amp; Infinite Scroll&lt;/li&gt;
+  &lt;li&gt;Autolayout&lt;/li&gt;
+  &lt;li&gt;Map View&lt;/li&gt;
+  &lt;li&gt;Camera&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; OAuth&lt;/p&gt;
+&lt;h2 id=&quot;demo-apps-&quot;&gt;Demo Apps-&lt;/h2&gt;
 
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; Table View/ Collection View (duh..)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcomvemojaistream-istream-app-a&quot;&gt;&lt;a href=&quot;https://github.com/VeMoJa/iStream&quot;&gt; iStream App: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; Pull to referesh &amp;amp; Infinite Scroll&lt;/p&gt;
+&lt;p&gt;iStream is an iOS App that lets users share their day through adding pictures to various streams. Streams can be converted into gifs and shared on Twitter, Facebook and other social networks.&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; Autolayout&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; Map View&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;ballot_box_with_check&quot;&gt;&lt;/span&gt; Camera&lt;/p&gt;
-
-&lt;h1 id=&quot;demo-apps-&quot;&gt;Demo Apps-&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/VeMoJa/iStream&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/iStream.gif&quot; alt=&quot;iStream iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -167,6 +174,17 @@
 &lt;p&gt;Tinder is an iOS app that is a clone of the Tinder app.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TinderApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Tinder.gif&quot; alt=&quot;Tinder iOS App&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9emoji-artbook-emoji-artbook-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/Emoji-Artbook&quot;&gt; Emoji Artbook: &lt;/a&gt;&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Emoji Artbook is an iOS app for artist to create art with emoji’s and images.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/Emoji-Artbook&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/EmojiArtbook.gif&quot; alt=&quot;Emoji Artbook iOS App&quot; /&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;tools-&quot;&gt;Tools-&lt;/h2&gt;
@@ -282,6 +300,21 @@
         
         
         <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Lightning Talk</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/QvtaNMqcJNg?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 19 Mar 2016 12:24:00 -0700</pubDate>
+        <link>https://monte9.github.io//2016/lightning-talk/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2016/lightning-talk/</guid>
+        
+        <category>tech</category>
+        
+        
+        <category>videos</category>
         
       </item>
     
