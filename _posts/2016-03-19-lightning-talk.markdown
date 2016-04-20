@@ -5,5 +5,4 @@ categories: [videos]
 tags: [tech]
 ---
 
-
-{% youtube QvtaNMqcJNg %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QvtaNMqcJNg" frameborder="0" allowfullscreen></iframe>

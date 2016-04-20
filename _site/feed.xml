@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Apr 2016 23:10:03 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Apr 2016 23:10:03 -0700</lastBuildDate>
+    <pubDate>Tue, 19 Apr 2016 23:24:43 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Apr 2016 23:24:43 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -305,7 +305,7 @@
     
       <item>
         <title>Lightning Talk</title>
-        <description>&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/QvtaNMqcJNg?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QvtaNMqcJNg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 19 Mar 2016 12:24:00 -0700</pubDate>
         <link>https://monte9.github.io//2016/lightning-talk/</link>
