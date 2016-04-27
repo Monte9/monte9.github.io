@@ -5,12 +5,18 @@ categories: [resume]
 tags: [work]
 ---
 
-Thanks for checking out my resume. Below you will find an online version and you can download a pdf [here.][1]
+Thanks for checking out my resume. Below you will find an online version and you can also download a pdf [here.][1]
 
 [1]:{{ site.url }}/download/MonteThakkar_Resume.pdf
 
 ## **Education**
 <hr>
+
+### **San Francisco State University** - 3.49 GPA
+
+#### **Bachelor of Science, Computer Science - December 2016**   
+
+**Relevant Coursework:** CSC 256 (Machine Structures), CSC 413 (Software Development), CSC 415 (Operating System Principals), CSC 510 (Analysis of Algorithms), CSC 520 (Theory of Computing), CSC 600 (Programming Language Design), CSC 621 (Biomedical Imaging & Analysis), CSC 648 (Software Engineering), CSC 667 (Internet Applciation Design & Development)
 
 ## **Experience**
 <hr>
@@ -75,20 +81,51 @@ Thanks for checking out my resume. Below you will find an online version and you
 ## **Projects**
 <hr>
 
+### **@If Bot** <a href="https://github.com/Prompt-Bots/If-bot">(repo)</a>
+
+##### **WINNER: Most Useful Prompt Command @ Hacktech’16** 
+
+Mood based, meta-searching for bots across the entire Prompt platform. Written in Node.js, JavaScript and hosted on Microsoft Azure. I wrote the keyword dictionaries and comparison algorithm in JavaScript
+
+### **FlickM App** [(demo)][2] <a href="https://github.com/Monte9/MoviesDBApp-CodePathU">(repo)</a>
+
+[2]:{{ site.url }}/download/FlickM.gif
+
+FlickM is a iOS movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.
+
+### **Rails Against Humanity** <a href="https://github.com/Monte9/Cards-Against-Humanity">(repo)</a>
+
+Build a web version of the popular card game, Cards Against Humanity using Ruby on Rails. 
+
+
 ## **Leadership**
 <hr>
+### **President**
+
+#### **Foothill College Science and Engineering Association**
+
+• Organized the Foothill College Annual Physics Olympics attended by 100+ students
 
 ## **Skills**
 <hr>
 
 ### Proficient in:
 
+Swift, Java, HTML/CSS, Javascript
 
 ### Experience in:
 
+Ruby on Rails, Node.js, PHP, C++, Objective-C
 
 ### Other Software:
 
+Mac OS X, Unix, Windows 7, XCode, Git/Github, Adobe Dreamweaver, Microsoft Office
 
 ## **Volunteer**
 <hr>
+
+### **International Volunteer**
+
+#### **Dekamer Sea Turtle Research and Rescue Center, Turkey**
+
+• Travelled to the southern coast of Turkey to protect endangered Loggerhead sea turtle species.

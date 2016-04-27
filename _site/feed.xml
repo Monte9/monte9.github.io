@@ -5,8 +5,8 @@
     <description>Welcome stranger!! How did you get here? Sshh.. can you keep a secret please?</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Apr 2016 18:55:09 -0700</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2016 18:55:09 -0700</lastBuildDate>
+    <pubDate>Tue, 26 Apr 2016 23:17:56 -0700</pubDate>
+    <lastBuildDate>Tue, 26 Apr 2016 23:17:56 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -218,10 +218,16 @@
     
       <item>
         <title>Resume</title>
-        <description>&lt;p&gt;Thanks for checking out my resume. Below you will find an online version and you can download a pdf &lt;a href=&quot;https://monte9.github.io/download/MonteThakkar_Resume.pdf&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Thanks for checking out my resume. Below you will find an online version and you can also download a pdf &lt;a href=&quot;https://monte9.github.io/download/MonteThakkar_Resume.pdf&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;education&quot;&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
+
+&lt;h3 id=&quot;san-francisco-state-university---349-gpa&quot;&gt;&lt;strong&gt;San Francisco State University&lt;/strong&gt; - 3.49 GPA&lt;/h3&gt;
+
+&lt;h4 id=&quot;bachelor-of-science-computer-science---december-2016&quot;&gt;&lt;strong&gt;Bachelor of Science, Computer Science - December 2016&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt; CSC 256 (Machine Structures), CSC 413 (Software Development), CSC 415 (Operating System Principals), CSC 510 (Analysis of Algorithms), CSC 520 (Theory of Computing), CSC 600 (Programming Language Design), CSC 621 (Biomedical Imaging &amp;amp; Analysis), CSC 648 (Software Engineering), CSC 667 (Internet Applciation Design &amp;amp; Development)&lt;/p&gt;
 
 &lt;h2 id=&quot;experience&quot;&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
@@ -301,21 +307,52 @@
 &lt;h2 id=&quot;projects&quot;&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
 
+&lt;h3 id=&quot;if-bot-a-hrefhttpsgithubcomprompt-botsif-botrepoa&quot;&gt;&lt;strong&gt;@If Bot&lt;/strong&gt; &lt;a href=&quot;https://github.com/Prompt-Bots/If-bot&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;winner-most-useful-prompt-command--hacktech16&quot;&gt;&lt;strong&gt;WINNER: Most Useful Prompt Command @ Hacktech’16&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;Mood based, meta-searching for bots across the entire Prompt platform. Written in Node.js, JavaScript and hosted on Microsoft Azure. I wrote the keyword dictionaries and comparison algorithm in JavaScript&lt;/p&gt;
+
+&lt;h3 id=&quot;flickm-app-demo2-a-hrefhttpsgithubcommonte9moviesdbapp-codepathurepoa&quot;&gt;&lt;strong&gt;FlickM App&lt;/strong&gt; &lt;a href=&quot;https://monte9.github.io/download/FlickM.gif&quot;&gt;(demo)&lt;/a&gt; &lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;FlickM is a iOS movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.&lt;/p&gt;
+
+&lt;h3 id=&quot;rails-against-humanity-a-hrefhttpsgithubcommonte9cards-against-humanityrepoa&quot;&gt;&lt;strong&gt;Rails Against Humanity&lt;/strong&gt; &lt;a href=&quot;https://github.com/Monte9/Cards-Against-Humanity&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Build a web version of the popular card game, Cards Against Humanity using Ruby on Rails.&lt;/p&gt;
+
 &lt;h2 id=&quot;leadership&quot;&gt;&lt;strong&gt;Leadership&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
+
+&lt;h3 id=&quot;president&quot;&gt;&lt;strong&gt;President&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;foothill-college-science-and-engineering-association&quot;&gt;&lt;strong&gt;Foothill College Science and Engineering Association&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;• Organized the Foothill College Annual Physics Olympics attended by 100+ students&lt;/p&gt;
 
 &lt;h2 id=&quot;skills&quot;&gt;&lt;strong&gt;Skills&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;proficient-in&quot;&gt;Proficient in:&lt;/h3&gt;
 
+&lt;p&gt;Swift, Java, HTML/CSS, Javascript&lt;/p&gt;
+
 &lt;h3 id=&quot;experience-in&quot;&gt;Experience in:&lt;/h3&gt;
 
+&lt;p&gt;Ruby on Rails, Node.js, PHP, C++, Objective-C&lt;/p&gt;
+
 &lt;h3 id=&quot;other-software&quot;&gt;Other Software:&lt;/h3&gt;
+
+&lt;p&gt;Mac OS X, Unix, Windows 7, XCode, Git/Github, Adobe Dreamweaver, Microsoft Office&lt;/p&gt;
 
 &lt;h2 id=&quot;volunteer&quot;&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr /&gt;
 
+&lt;h3 id=&quot;international-volunteer&quot;&gt;&lt;strong&gt;International Volunteer&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;dekamer-sea-turtle-research-and-rescue-center-turkey&quot;&gt;&lt;strong&gt;Dekamer Sea Turtle Research and Rescue Center, Turkey&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;• Travelled to the southern coast of Turkey to protect endangered Loggerhead sea turtle species.&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 12:24:00 -0700</pubDate>
         <link>https://monte9.github.io//2016/resume/</link>
