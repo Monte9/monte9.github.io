@@ -5,209 +5,69 @@
     <description>Young, independent and ambitious software engineer looking to work on challenging technical problems with a passion for developing mobile apps.</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Aug 2016 15:38:42 -0700</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2016 15:38:42 -0700</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2016 01:54:04 -0700</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 01:54:04 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>iOS Portfolio</title>
-        <description>&lt;p&gt;&lt;strong&gt;“I &lt;em&gt;live&lt;/em&gt;, &lt;em&gt;breathe&lt;/em&gt; and &lt;em&gt;sleep&lt;/em&gt; Swift.” - Monte Thakkar&lt;/strong&gt;&lt;/p&gt;
+        <title>Best online iOS Crash Course! (1 day)</title>
+        <description>&lt;p&gt;&lt;strong&gt;My Claim: ANYBODY* can learn to build an iOS app  24 hrs. Here’s how… (*Given the person wants to learn it in the first place)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I am really passionate about iOS development and I find developing new iOS apps challenging and fun. I am looking for internship/ full-time opportunities as an iOS Developer to work on ideas that are making (or will make) a difference.&lt;/p&gt;
+&lt;p&gt;Fact: iOS development is a technical subject&lt;/p&gt;
 
-&lt;h2 id=&quot;implemented-features-&quot;&gt;Implemented features-&lt;/h2&gt;
+&lt;p&gt;Statement: Even a non-techy person can learn iOS development.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;GET/POST Request (API Calls)&lt;/li&gt;
-  &lt;li&gt;OAuth&lt;/li&gt;
-  &lt;li&gt;Table View/ Collection View (duh..)&lt;/li&gt;
-  &lt;li&gt;Pull to referesh &amp;amp; Infinite Scroll&lt;/li&gt;
-  &lt;li&gt;Autolayout&lt;/li&gt;
-  &lt;li&gt;Map View&lt;/li&gt;
-  &lt;li&gt;Camera&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;My Claim: ANYBODY* can learn to build an iOS app in one day. Here’s how… (*Given the person wants to learn it in the first place)&lt;/p&gt;
 
-&lt;h2 id=&quot;demo-apps-&quot;&gt;Demo Apps-&lt;/h2&gt;
+&lt;p&gt;So the other day, I was wondering what kind of resources were available online for learning iOS development and so I googled “Learn iOS development” and predictable found enough online courses and tutorials to keep me busy learning iOS for the next year. It’s hard when you are trying to learn a new subject and there are not many resources available out there, but on the other hand it can be pretty overwhelming to find too many resources on a subject as well. I believe that the depth and duration of some of these courses offered online can seem unappealing to a complete newbie as nobody has so much time to commit these days with social media and life. Did you know that according to a new survey, Teens spend more time consuming media than they do sleeping. I am not even making that up, you can read more about the survey here.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcomvemojaistream-istream-app-a&quot;&gt;&lt;a href=&quot;https://github.com/VeMoJa/iStream&quot;&gt; iStream App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;So anyways, the reason I am writing this post in the first place is because in that huge dump of information relating to iOS development available online, I managed to find a gem of a crash course. It’s not too long, has just enough depth and is very hands on. Its called: iOS Crash Course taught by Janum trivedi. I looked into the course and starting working on it immediately. The entire course is divided into ten session most of which have pdf’s that you can go through and some of those sessions also have accompanying xcode project files. It took me roughly 5-6 hrs to go through the entire material including xcode project files and by the end of it I was able to develop my own to-do list app from scratch.&lt;/p&gt;
 
-&lt;p&gt;iStream is an iOS App that lets users share their day through adding pictures to various streams. Streams can be converted into gifs and shared on Twitter, Facebook and other social networks.&lt;/p&gt;
+&lt;p&gt;I would specifically like to bring to your attention that despite having developed iOS apps before, the crash course really helped me solidify some of the core iOS development concepts that I was fuzzy on. The xcode project was very well documented and was explained well throughout the course. So as it turns out each session needs to be downloaded separately from the github repo and while I was working on it, I found this to be very cumbersome. So I have taken the liberty of putting all of those sessions into one zip file available for download here. You can thank me later for this folks!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/VeMoJa/iStream&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/iStream.gif&quot; alt=&quot;iStream iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;As I went through the course, I took notes of some of the key concepts presented in the pdf’s. So after reading this list of concepts, if you feel pretty confident I would recommended trying to build the app yourself using the xcode project only as a reference. On the other hand, if you are unfamiliar with many of these concepts I would highly recommend going through the crash course itself.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9likesapp-likes-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/LikesApp&quot;&gt; Likes App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Likes app is an iOS app that provides a uniform and simple UI for interacting with several websites and services.&lt;/p&gt;
-
-&lt;p&gt;(The gif below shows integration with Yelp API and saves your favorite resturants.)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/LikesApp&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Likes.gif&quot; alt=&quot;Likes iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9cutebunnyapp-cute-bunny-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt; Cute Bunny App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;An iOS app written in Swift 2.1 that displays gifs of cute bunnies + trending gifs using the Giphy APIs. This was inspired by &lt;a href=&quot;http://www.randomgoat.com/&quot;&gt;http://www.randomgoat.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/CuteBunnyApp&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/CuteBunny.gif&quot; alt=&quot;Cute Bunny iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9moviesdbapp-codepathu-flickm-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt; FlickM App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;FlickM is a movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/FlickM.gif&quot; alt=&quot;FlickM iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9yelpapp-codepathu-yelp-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt; Yelp App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;YelpM is a Yelp search app using the Yelp API.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/YelpApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/YelpM.gif&quot; alt=&quot;Yelp iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9twitterapp-codepathu-twitter-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt; Twitter App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;TwitterM is a basic twitter app to read and compose tweets the Twitter API.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TwitterApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Twitter.gif&quot; alt=&quot;Twitter iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9tinderapp-codepathu-tinder-app-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/TinderApp-CodePathU&quot;&gt; Tinder App: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tinder is an iOS app that is a clone of the Tinder app.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/TinderApp-CodePathU&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/Tinder.gif&quot; alt=&quot;Tinder iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;a-hrefhttpsgithubcommonte9emoji-artbook-emoji-artbook-a&quot;&gt;&lt;a href=&quot;https://github.com/Monte9/Emoji-Artbook&quot;&gt; Emoji Artbook: &lt;/a&gt;&lt;/h3&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Emoji Artbook is an iOS app for artist to create art with emoji’s and images.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/Monte9/Emoji-Artbook&quot;&gt;&lt;img height=&quot;600&quot; width=&quot;320&quot; src=&quot;/images/EmojiArtbook.gif&quot; alt=&quot;Emoji Artbook iOS App&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tools-&quot;&gt;Tools-&lt;/h2&gt;
+&lt;p&gt;Key Concepts-&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Written in Swift&lt;/li&gt;
-  &lt;li&gt;Use Cocoapods&lt;/li&gt;
-  &lt;li&gt;Auto Layout all the way (iPhone 5/5s, 6/6s, 6Plus/6sPlus)&lt;/li&gt;
-  &lt;li&gt;Git for source control via terminal&lt;/li&gt;
+  &lt;li&gt;MVC Architecture-
+Almost each file in the project can be put into either a Model (data), View (what the user sees or UI) and Controller (the layer between the view and the model that connects them both)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;other-resources-&quot;&gt;Other resources-&lt;/h2&gt;
+&lt;p&gt;Model &amp;lt;-&amp;gt; Controller &amp;lt;-&amp;gt; Views (The symbol &amp;lt;-&amp;gt; means two way interaction).&lt;/p&gt;
+
+&lt;p&gt;Note that in this architecture, the view is totally unaware of the data that it is presenting and likewise, the Model is totally unaware of how the data is presented to the user. The Model and the View do not interact directly with one another.&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codepath.com/&quot;&gt;CodePath University&lt;/a&gt;: &lt;em&gt;“Without CodePath, I would still be trying to learn swift from a physical book”&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;: &lt;em&gt;“Helping teams everywhere ‘Be less busy’“&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;LiceCap&lt;/a&gt;: &lt;em&gt;“Gifs created with LiceCap”&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://icons8.com/&quot;&gt;icons8&lt;/a&gt;: &lt;em&gt;“All the Icons You Need. Guaranteed.”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Delegation- concept of assigning responsibility to another object or class. Key concept in iOS developement.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Objective-C Blocks- A block of code enclosed within the curly braces {}. Basically, Blocks let us pass in a block of code as a method parameter.
+An important implementation of the Blocks is Callback functions. A callback function essentially allows us to pass a notification as a callback method when the function execution is complete. Highly useful in the case of multithreading.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Multithreading- Concept of running multiple threads to complete independent tasks required by the main thread to get overworked and freezing the app eventually.
+Grand Central Dispatch (GCD)- It is a multithreading and concurrency API library written in C.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Persistence- Concept of storing app data in a local (sandboxed) filesystem across multiple sessions. This helps our apps maintain user state.
+There are several way to implement persistence in the app:
+a. NSUserDefaults- Part of the Foundation class. More often slow and not flexible. Hence mainly used to store user settings.
+b. NSCoding/ NSKeyedArchive- More flexible and fast. Recommended to store data.
+c. SQLite
+d. Core Data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Git/ Version Control- Concept of keeping track of your file changes and allowing collaboration on the same files.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;p&gt;Just to reiterate, I do not own any of the above content and all credit goes to Janum Trivedi for putting this course together. The zip file containing the crash course can be downloaded here. Thanks for reading and let me know if you found this blog post useful in any way.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Mar 2016 12:24:00 -0700</pubDate>
-        <link>https://monte9.github.io//2016/ios-portfolio/</link>
-        <guid isPermaLink="true">https://monte9.github.io//2016/ios-portfolio/</guid>
-        
-        <category>iOS</category>
-        
-        
-        <category>blogs</category>
-        
-      </item>
-    
-      <item>
-        <title>Hackathons</title>
-        <description>&lt;p&gt;&lt;strong&gt;Hackathons are for tech zombies and I am one of them!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;if-prompt-bot&quot;&gt;&lt;strong&gt;@If (Prompt bot)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;winner-most-useful-prompt-command&quot;&gt;&lt;strong&gt;WINNER: Most Useful Prompt Command&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;hacktech16--caltech-pasadena-ca&quot;&gt;&lt;em&gt;@Hacktech’16- Caltech, Pasadena, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mood based, meta-searching for bots across the entire Prompt platform.&lt;/li&gt;
-  &lt;li&gt;Written in Node.js, JavaScript and hosted on Microsoft Azure.&lt;/li&gt;
-  &lt;li&gt;I wrote the keyword dictionaries and comparison algorithm in JavaScript.&lt;/li&gt;
-  &lt;li&gt;Won a RC Quadcopter Drone with HD Camera. dope!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lets-eat-ios-app&quot;&gt;&lt;strong&gt;Let’s Eat (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;calhacks15--uc-berkeley-berkeley-ca&quot;&gt;&lt;em&gt;@CalHacks’15- UC Berkeley, Berkeley, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Restaurant reservation made simple with QR Codes; User gets notified when the table is ready and can pay the check through the app when done.&lt;/li&gt;
-  &lt;li&gt;I built the entire customer-side app, setup Parse on the backend and implemented Stripe API to process payments.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;koclassclub-web-app&quot;&gt;&lt;strong&gt;KoClass.Club (Web App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;hackingedu15--san-mateo-event-center-ca&quot;&gt;&lt;em&gt;@HackingEDU’15- San Mateo Event Center, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Web platform that enables students to collaboratively write notes and chat in real time.&lt;/li&gt;
-  &lt;li&gt;Professor can share slides and test results on the platform in the classroom.&lt;/li&gt;
-  &lt;li&gt;Used Laravel framework with Nginx and Php-Fpm stack.&lt;/li&gt;
-  &lt;li&gt;I integrated Boostrap and Moxtra API.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;flashem-ios-app&quot;&gt;&lt;strong&gt;Flash’em (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;disrupt-hackathon15--tech-crunch-disrupt-san-francisco-ca&quot;&gt;&lt;em&gt;@Disrupt Hackathon’15- Tech Crunch Disrupt, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Social app that matches users based on similar interests &amp;amp; location.&lt;/li&gt;
-  &lt;li&gt;I built the entire iOS app making calls to RESTful API.&lt;/li&gt;
-  &lt;li&gt;Presented the app on stage to an audience of 500+ people.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;karmado-ios-app&quot;&gt;&lt;strong&gt;KarmaDo (iOS App)&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;makehacks15--make-school-san-francisco-ca&quot;&gt;&lt;em&gt;@MakeHacks’15- Make School, San Francisco, CA&lt;/em&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Simple To-Do List app that motivates users to donate to a charity if they miss/forget to complete a task.&lt;/li&gt;
-  &lt;li&gt;Worked alongside highschoolers that contributed to the app by learning Swift in under 12 hours.&lt;/li&gt;
-  &lt;li&gt;Although not technically challenging, I guided my teammates through building their first iOS app.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 21 Mar 2016 12:24:00 -0700</pubDate>
-        <link>https://monte9.github.io//2016/hackathons/</link>
-        <guid isPermaLink="true">https://monte9.github.io//2016/hackathons/</guid>
+        <pubDate>Sat, 07 Nov 2015 20:00:00 -0800</pubDate>
+        <link>https://monte9.github.io//2015/1-day-iOS-crash-course/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2015/1-day-iOS-crash-course/</guid>
         
         <category>tech</category>
         
@@ -217,166 +77,219 @@
       </item>
     
       <item>
-        <title>Resume</title>
-        <description>&lt;p&gt;Thanks for checking out my resume. Below you will find an online version and you can also download a pdf &lt;a href=&quot;https://monte9.github.io/download/MonteThakkar_Resume.pdf&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+        <title>Twitter Flight &amp; Back to the Future Day</title>
+        <description>&lt;p&gt;&lt;strong&gt;The original DeLorean from the movie was brought on premises towards the end of the event and it felt pretty surreal to sit inside it as I imagined Marty McFly sitting in the exact same seat 30 years ago. #ANightToRemember&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;education&quot;&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
+&lt;p&gt;I attended Twitter’s annual development conference (called Twitter Flight) at the Bill Graham Civic Auditorium in San Francisco on October 21, 2015 (wait.. isn’t that BACK TO THE FUTURE DAY?!) Yes it is, and for this occasion Twitter made sure the attendees had ‘a night to remember’. The original DeLorean from the movie was brought on premises towards the end of the event and it felt pretty surreal to sit inside it as I imagined Marty McFly sitting in the exact same seat 30 years ago. #ANightToRemember&lt;/p&gt;
 
-&lt;h3 id=&quot;san-francisco-state-university---349-gpa&quot;&gt;&lt;strong&gt;San Francisco State University&lt;/strong&gt; - 3.49 GPA&lt;/h3&gt;
+&lt;p&gt;Just like all other tech-events that I attend, I live-tweeted from the event. Using a social megaphone which is Twitter, I was able to bring a quasi-virtual experience from inside the event to my huge following on Twitter (that’s 411 people). I usually blog about these events once they are done and put up a few pictures as well although for this blog post I am going to try something different.&lt;/p&gt;
 
-&lt;h4 id=&quot;bachelor-of-science-computer-science---december-2016&quot;&gt;&lt;strong&gt;Bachelor of Science, Computer Science - December 2016&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Since it was a Twitter event, I am going to present this blog post as a series of tweets in chronological order. So here goes…&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt; CSC 256 (Machine Structures), CSC 413 (Software Development), CSC 415 (Operating System Principals), CSC 510 (Analysis of Algorithms), CSC 520 (Theory of Computing), CSC 600 (Programming Language Design), CSC 621 (Biomedical Imaging &amp;amp; Analysis), CSC 648 (Software Engineering), CSC 667 (Internet Applciation Design &amp;amp; Development)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tweets coming soon&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;experience&quot;&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;ios-mobile-bootcamp--codepath-inc&quot;&gt;&lt;strong&gt;iOS Mobile Bootcamp @ CodePath Inc&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;january-2016-present&quot;&gt;&lt;strong&gt;(January 2016-present)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1 out of 100 students selected for iOS development track at CCSF&lt;/li&gt;
-  &lt;li&gt;Explore major iOS topics according to current industry best practices&lt;/li&gt;
-  &lt;li&gt;Developed 6+ iOS apps including cloning Twitter, Yelp and Giphy apps&lt;/li&gt;
-  &lt;li&gt;Building iStream app using Parse Server + Heroku that will enable users to share their daily experience through gifs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ios-developer--deckstr-inc&quot;&gt;&lt;strong&gt;iOS Developer @ Deckstr Inc&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;august-2015-march-2016&quot;&gt;&lt;strong&gt;(August 2015-March 2016)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Independently implemented features such as Login w/ Parse, OAuth w/ Facebook and LinkedIn&lt;/li&gt;
-  &lt;li&gt;Coordinate weekly iOS team meetings; complete weekly development deadlines&lt;/li&gt;
-  &lt;li&gt;Participate in weekly full-team meetings- give updates on behalf of iOS team&lt;/li&gt;
-  &lt;li&gt;Experience in Swift, Git/Github, Cocoapods, XCode, API’s, OAuth, 3rd party libraries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;webmaster--san-francisco-state-university&quot;&gt;&lt;strong&gt;Webmaster @ San Francisco State University&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;may-2015-present&quot;&gt;&lt;strong&gt;(May 2015-present)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Develop and maintain several department websites using Drupal CMS, WordPress and Adobe Dreamweaver&lt;/li&gt;
-  &lt;li&gt;Improve web design, information architecture, search engine optimization&lt;/li&gt;
-  &lt;li&gt;Perform site re-structuring, bug fixes, accessibility and usability testing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;student-grader-csc-230--cs-dept-sf-state&quot;&gt;&lt;strong&gt;Student Grader (CSC 230) @ CS Dept, SF State&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;august-2015-present&quot;&gt;&lt;strong&gt;(August 2015-present)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Grade student assignments as per instructor’s criteria&lt;/li&gt;
-  &lt;li&gt;Provide feedback and raise concerns based on class performance&lt;/li&gt;
-  &lt;li&gt;Complete and return assigned grading on a tight weekly schedule&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;note-taker--dprc-sf-state&quot;&gt;&lt;strong&gt;Note Taker @ DPRC, SF State&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;september-december-2015&quot;&gt;&lt;strong&gt;(September-December 2015)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Volunteered to share notes with a fellow classmate as a reasonable accommodation through the Disability Programs and Resource Center (DPRC) for the duration of the semester.&lt;/li&gt;
-  &lt;li&gt;Shared notes electronically through Google Docs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;apple-representative--foothill-college-bookstore&quot;&gt;&lt;strong&gt;Apple Representative @ Foothill College Bookstore&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;october-2012-july-2014&quot;&gt;&lt;strong&gt;(October 2012-July 2014)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Certified as Apple Product Professional (APP) and completed iOS Technical Training through Apple Sales Training Program (ASTO)&lt;/li&gt;
-  &lt;li&gt;Responsible for sales and invoicing of Apple products up to $30,000&lt;/li&gt;
-  &lt;li&gt;Performed shipping, receiving and shelf stocking of books and merchandise using MBS AS400 system and UPS Worldship&lt;/li&gt;
-  &lt;li&gt;Demonstrated strong communication and multitasking skills along with excellent customer service.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;summer-intern--make-school-sf&quot;&gt;&lt;strong&gt;Summer Intern @ Make School, SF&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;july--august-2013&quot;&gt;&lt;strong&gt;(July- August 2013)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Selected for the iOS development track; Batch of 2013&lt;/li&gt;
-  &lt;li&gt;Explored application prototyping, user testing, UI/UX, Objective-C&lt;/li&gt;
-  &lt;li&gt;Cultivated strong programming techniques and work ethic alongside experienced mentors&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;projects&quot;&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;if-bot-a-hrefhttpsgithubcomprompt-botsif-botrepoa&quot;&gt;&lt;strong&gt;@If Bot&lt;/strong&gt; &lt;a href=&quot;https://github.com/Prompt-Bots/If-bot&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;winner-most-useful-prompt-command--hacktech16&quot;&gt;&lt;strong&gt;WINNER: Most Useful Prompt Command @ Hacktech’16&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;p&gt;Mood based, meta-searching for bots across the entire Prompt platform. Written in Node.js, JavaScript and hosted on Microsoft Azure. I wrote the keyword dictionaries and comparison algorithm in JavaScript&lt;/p&gt;
-
-&lt;h3 id=&quot;flickm-app-demo2-a-hrefhttpsgithubcommonte9moviesdbapp-codepathurepoa&quot;&gt;&lt;strong&gt;FlickM App&lt;/strong&gt; &lt;a href=&quot;https://monte9.github.io/download/FlickM.gif&quot;&gt;(demo)&lt;/a&gt; &lt;a href=&quot;https://github.com/Monte9/MoviesDBApp-CodePathU&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;FlickM is a iOS movies app displaying Top Rated, Popular, Now Playing, Upcoming and Movie Genres using The Movie Database API.&lt;/p&gt;
-
-&lt;h3 id=&quot;rails-against-humanity-a-hrefhttpsgithubcommonte9cards-against-humanityrepoa&quot;&gt;&lt;strong&gt;Rails Against Humanity&lt;/strong&gt; &lt;a href=&quot;https://github.com/Monte9/Cards-Against-Humanity&quot;&gt;(repo)&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Build a web version of the popular card game, Cards Against Humanity using Ruby on Rails.&lt;/p&gt;
-
-&lt;h2 id=&quot;leadership&quot;&gt;&lt;strong&gt;Leadership&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;president&quot;&gt;&lt;strong&gt;President&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;foothill-college-science-and-engineering-association&quot;&gt;&lt;strong&gt;Foothill College Science and Engineering Association&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;• Organized the Foothill College Annual Physics Olympics attended by 100+ students&lt;/p&gt;
-
-&lt;h2 id=&quot;skills&quot;&gt;&lt;strong&gt;Skills&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;proficient-in&quot;&gt;Proficient in:&lt;/h3&gt;
-
-&lt;p&gt;Swift, Java, HTML/CSS, Javascript&lt;/p&gt;
-
-&lt;h3 id=&quot;experience-in&quot;&gt;Experience in:&lt;/h3&gt;
-
-&lt;p&gt;Ruby on Rails, Node.js, PHP, C++, Objective-C&lt;/p&gt;
-
-&lt;h3 id=&quot;other-software&quot;&gt;Other Software:&lt;/h3&gt;
-
-&lt;p&gt;Mac OS X, Unix, Windows 7, XCode, Git/Github, Adobe Dreamweaver, Microsoft Office&lt;/p&gt;
-
-&lt;h2 id=&quot;volunteer&quot;&gt;&lt;strong&gt;Volunteer&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;international-volunteer&quot;&gt;&lt;strong&gt;International Volunteer&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;dekamer-sea-turtle-research-and-rescue-center-turkey&quot;&gt;&lt;strong&gt;Dekamer Sea Turtle Research and Rescue Center, Turkey&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;• Travelled to the southern coast of Turkey to protect endangered Loggerhead sea turtle species.&lt;/p&gt;
+&lt;p&gt;If you enjoyed reading this blog post, please follow me on Twitter @MThakkar_&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Mar 2016 12:24:00 -0700</pubDate>
-        <link>https://monte9.github.io//2016/resume/</link>
-        <guid isPermaLink="true">https://monte9.github.io//2016/resume/</guid>
+        <pubDate>Mon, 02 Nov 2015 19:00:00 -0800</pubDate>
+        <link>https://monte9.github.io//2015/twitter-flight-back-to-the-future-day/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2015/twitter-flight-back-to-the-future-day/</guid>
         
-        <category>work</category>
+        <category>events</category>
         
         
-        <category>resume</category>
+        <category>blogs</category>
         
       </item>
     
       <item>
-        <title>Lightning Talk</title>
-        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QvtaNMqcJNg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+        <title>Cal Hacks 2.0</title>
+        <description>&lt;p&gt;&lt;strong&gt;Although it had its fair-share of “You’ve gotta be kidding me!” moments, it was definitely a memorable event and the organizers did a great job of holding it all together till the very end.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I just got back from Cal Hacks which was held at California Memorial Stadium, the home of the Cal Bears at UC Berkeley. Attended by over 2000 hackers it was apparently the largest hackathon ever organized. Although it had its fair-share of “You’ve gotta be kidding me!” moments, it was definitely a memorable event and the organizers did a great job of holding it all together till the very end. I feel like a lot of attendees (including myself) did not appreciate the amount of teamwork, organization and coordination that went into putting up an event on such a large scale. So shout out to the entire Cal Hacks team! Lastly, for those of you wondering “A hackathon is where your crazy ideas become reality.”&lt;/p&gt;
+
+&lt;p&gt;With that out of the way, let’s dive into the app that my team built at the hackathon: “LET’S EAT : Uber for Restaurants“. The tagline can be a bit misleading but I promise it’s not unrelated. The purpose of the app is to act as an intermediary between the customers and restaurants to make the dining experience as efficient and streamlined as possible. So let me take you through the user experience for the app.&lt;/p&gt;
+
+&lt;p&gt;Ideally each restaurant will have a QR Code with information relating to their restaurant encoded in it, such as its location, website, phone number etc. A customer can make a reservation by scanning the QR Code either by walking into the restaurant or online. Once the scan is successful, the user is prompted to enter 3 very basic and much needed information which are Customer Name, Party Size and Phone Number. This sends the notification for a new reservation to the restaurant and the customer can be seated immediately if the restaurant has open tables available.  If not, the user doesn’t have to physically wait in the restaurant and can feel free to walk around as the restaurant will send a notification to the customers when their table is ready. This puts the customer’s mind to ease and with the Uber API integrated, the customers can even take an Uber back to the restaurant right within the app with just a click of the button. Once the customer is finished with the meal, the customer can pay on the app with one or multiple credit cards. This is possible as we integrated Stripe API to process the payments in a secure manner. And there you have it… your walk-in dining experience can’t get any easier than this!&lt;/p&gt;
+
+&lt;p&gt;Here is a video showing the working of the app: https://www.youtube.com/watch?v=WpOj1XBlZJk&lt;/p&gt;
+
+&lt;p&gt;And if you have gotten this far (which I dont doubt as I know this article is totally NOT boring), watch us demo it live: https://www.youtube.com/watch?v=GQTiC78Azhs&lt;/p&gt;
 </description>
-        <pubDate>Sat, 19 Mar 2016 12:24:00 -0700</pubDate>
-        <link>https://monte9.github.io//2016/lightning-talk/</link>
-        <guid isPermaLink="true">https://monte9.github.io//2016/lightning-talk/</guid>
+        <pubDate>Thu, 22 Oct 2015 19:00:00 -0700</pubDate>
+        <link>https://monte9.github.io//2015/cal-hacks-2/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2015/cal-hacks-2/</guid>
         
-        <category>tech</category>
+        <category>events</category>
         
         
-        <category>videos</category>
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>TechCrunch Disrupt SF Hackathon 2015</title>
+        <description>&lt;p&gt;&lt;strong&gt;Since this was my first hackathon I didn’t have to be perfect, I just needed to show up and be good enough.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just to give you (the reader) a heads up, this blog post is written in Reverse chronology. The idea in taking this approach is to present the end product first (mobile app), and then describe briefly how we got there in the first place. I think this style makes the article much more engaging for non-techy readers.&lt;/p&gt;
+
+&lt;p&gt;Flash’em App: An app that connects users based on shared interests, skills and activities using unique criteria’s and categories based in the app. This approach matches users intuitively as opposed to randomly and artificially trying to network with strangers around you.&lt;/p&gt;
+
+&lt;p&gt;Watch our demo on stage, as Martin (team member 1/4) introduces our app to the judges and the 500+ audience present. Each team was given 60 seconds on stage to demo their app/ product. Unfortunately, we couldn’t finish our demo as planned within that given time but Martin did a great job presenting it on stage nonetheless.&lt;/p&gt;
+
+&lt;p&gt;Our team consisted of 4 members; Ian (backend dev- node.js), Omar (backend dev- mySQL), Monte (frontend dev- iOS) and Matin (team lead/ designer/ presenter).&lt;/p&gt;
+
+&lt;p&gt;Reverse Chronological Timeline -&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;9:00am (Sunday) – all hands off keyboard. Final deadline to submit our projects. Awake for 24 hrs. “WE NEED MORE COFFEE!”&lt;/p&gt;
+
+&lt;p&gt;5:00am – the app seems to be coming together bit by bit. “I WANT TO SLEEP!”&lt;/p&gt;
+
+&lt;p&gt;3:00am – making progress.. wait… error??… debugging.. fuck!! “STAY AWAKE!”&lt;/p&gt;
+
+&lt;p&gt;12:00am (Sunday)– midnight munchies.. tamales + nachos and beer of course! “BEER!!”&lt;/p&gt;
+
+&lt;p&gt;9:00pm – fair bit of code written, still pretty energized, getting pretty cold. “WE STILL GOT THIS!”&lt;/p&gt;
+
+&lt;p&gt;6:00pm – push, push, push.. looking great so far.. talk about winning tomorrow. “WE ARE GONNA WIN!”&lt;/p&gt;
+
+&lt;p&gt;2:00pm – form a team, brainstorm ideas, lets get to work. “WE HAVE THE BEST IDEA GUYS”&lt;/p&gt;
+
+&lt;p&gt;12:00pm (Saturday) – welcome to TC Disrupt Hackathon, walk around, meet other participants.. “THIS IS COOL!!”&lt;/p&gt;
+
+&lt;p&gt;This was my FIRST hackathon and I was unsure of a lot of things: was I experienced enough to build an app? did I even have the required programming skills to contribute? will I find teammates? could I stay awake for 24 hrs? etc. Although I knew for a fact that if I did attend regardless of the outcome, I would at the very least know what the “hackathon buzz” was all about. Since it was my first hackathon I didn’t have to be perfect, I just needed to show up and be good enough.&lt;/p&gt;
+
+&lt;p&gt;The hackathon took place on September 19 – 20 at Pier 70 in San Francisco. I have never been in that part of the city as there is nothing exciting to do around there, although once I got there I felt as though I had time travelled into the past. As it turns out Pier 70 has been an industrial site since the Gold Rush (1849). It is also the oldest U.S. civilian shipyard. Walking around, I saw shipyards that could possibly be over a century old and it amazed me how far we have come from then. With our advancement in technology in this age, tech devs are able to build apps/ products/ services within 24 hrs that would be impossible to even imagine for someone back in those days. Yay… HUMANS!&lt;/p&gt;
+
+&lt;p&gt;Simply put, a hackathon is an opportunity for people to collaborate on transforming ideas into reality using technology.&lt;/p&gt;
+
+&lt;p&gt;“The word hackathon is a portmanteau of the words hack and marathon, where hack is used in the sense of playful, exploratory programming, not its alternate meaning as a reference to computer crime.” -Wikipedia&lt;/p&gt;
+
+&lt;p&gt;Looking back at the hackathon, I can confidently say that it was my most productive weekend ever. In fact, it helped me in so many aspects of the development process and gave me a clearly, bigger picture of what lie ahead of me. 10/10 would do again.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2015 18:00:00 -0700</pubDate>
+        <link>https://monte9.github.io//2015/tc-disrupt-sf-hackathon-2015/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2015/tc-disrupt-sf-hackathon-2015/</guid>
+        
+        <category>events</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Design Night: Energy hacking</title>
+        <description>&lt;p&gt;&lt;strong&gt;So the other night, I decided to attend Design Night at the Autodesk Gallery (@1 Market Street) and I couldn’t have asked for a better introduction into the “World of Tech” (WoT pronounced like “what”)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of you might be familiar with AutoDesk as the company that is a leader in developing software for the architecture, engineering and entertainment industries along with a few others. The company organizes Design Night events the first Thursday of every month to celebrate the creative process and show how people are using new technology to imagine, design, and create a better world. The gallery features over 20 exhibits, including original works by Lego, Mercedes-Benz, Nike, Sony Pictures, and more.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I happened to attend one of the Design Nights with the theme of Energy Hacking. Sounds cool right? That’s the only reason I ended up attending. I didn’t have friends to go with, neither did I know what to expect at the event. None the less, I went and I had a great time. The guest speaker was Saul Griffith, founder of Otherlab, speaking about design that’s great for the environment. There was free food + open bar and a lot of interesting people to network with. I ended up connecting with a few people and got a feel for what it is like to work in the Tech capital of the world, San Francisco.&lt;/p&gt;
+
+&lt;p&gt;Oh and btw, they had a workshop where you could build your own Solar powered fan and I thought that was too much fun to miss. So I ended up building one too. Yay DIY!!&lt;/p&gt;
+
+&lt;p&gt;Since this is one of my first blog post and I am sure not the last, I am going to end it with a few pictures so that you can get a glimpse of what the night was like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_1.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_2.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_3.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_4.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_5.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_6.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
+&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_7.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stay techy out there folks.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2015 02:00:00 -0700</pubDate>
+        <link>https://monte9.github.io//2015/design-night-energy-hacking/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2015/design-night-energy-hacking/</guid>
+        
+        <category>events</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>This is how I shower!</title>
+        <description>&lt;p&gt;&lt;strong&gt;PG-13 (Private parts are censored)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;268.5&quot; src=&quot;/images/shower.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Get this… the angle made by the shower head from the adjacent wall can directly affect your productivity and has the power to make you an achiever. Wondering how? Allow me to explain.&lt;/p&gt;
+
+&lt;p&gt;I shower once everyday. This practice is very normal in most modern cultures as showering promotes cleanliness and prevents odour. It also relaxes the body and is believed to have general therapeutic value. On most days my showering pattern is: rinse my body, shampoo my hair, soap my body, think, rinse my body again, and out of the shower. Then, jump around a bit, furiously rub my hair, dry my body and get out of the bathroom. Very routine and straight up boring, to be honest. Although some days are different. Different how you ask? Simply put, in the relative position of the shower head.&lt;/p&gt;
+
+&lt;p&gt;After conducting several shower-time experiments(which were extremely hot and steamy), I have come to believe that there is a direct realtionship connecting the angle between the shower head and the vertical of the adjacent wall to how productive my day will be. For instance, on a typical school day with two classes and 5 hours of work, my shower head is pointed roughly 55 degrees west of the adjacent wall. This enables the water to gently fall on my lower neck and upper back giving my body a very calm, easy and general feeling of existence. As expected, my day would go by with only a few surprises here and there such as meeting old friends and running into instructors. Contrary to such(regular) days, sometimes I raise my shower head approximately 85 degrees from the vertical. Surprisingly, on such days I tend to be much more involved in my daily activities, I am paying more attention in my classes and I am way more adventurous.&lt;/p&gt;
+
+&lt;p&gt;This change in behaviour and attitude I believe, is solely a consequence of the change in the position of the shower head. Here’s why… the greater angle of the shower head causes the water to follow a more linear and direct path on to the top of my head, which seems more natural like a waterfalls. Now, if I want to rinse my face, I am forced to stand on my toes and stretch myself. Turns out, such acts of stretching and striving harder in the shower re-energize me on a physical level and signal my body to get ready for a new and exciting day. And obviously, if your body is feeling ready and excited, so will your mind and heart. That O my readers, is called Monte’s Shower theory.&lt;/p&gt;
+
+&lt;p&gt;*for better results spend the last two minutes showering under cold water. This helps open up the pores on your skin and makes you sparkle. Infact this is how vampires shine (you’re welcome).&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jan 2014 04:00:00 -0800</pubDate>
+        <link>https://monte9.github.io//2014/this-is-how-i-shower/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2014/this-is-how-i-shower/</guid>
+        
+        <category>originals</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Swimming with Million years old species!</title>
+        <description>&lt;p&gt;&lt;strong&gt;A once in a lifetime experience swimming with Loggerhead Sea Turtle in the Mediterranean sea&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img height=&quot;126&quot; width=&quot;300&quot; src=&quot;/images/turtle.jpeg&quot; alt=&quot;A couple hours old sea turtle hatchling&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was a volunteer to help rescue and protect sea turtles and there I was, sitting on an anchored boat in the shallow waters of the Iztuzu beach in Turkey, with the dark blue waters and green mountains that surrounded it. This beauty seemed to cast a spell of eternal satisfaction and a general feeling of happiness on to me.&lt;/p&gt;
+
+&lt;center&gt;&lt;img height=&quot;225&quot; width=&quot;300&quot; src=&quot;/images/iztuzu.jpeg&quot; alt=&quot;Iztuzu beach, Dalyan, Turkey&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Casually glancing around I spotted something in the water. My eyes instantly stopped moving, motionless, and focused. It was a perfectly circular blackish shadow. I had seen innumerable such shadows before in the water and all of them, to my disappointment had turned out to be rocks underneath the water. ”It’s just another rock” I thought to myself and glanced away. But little did I know that this was going to be different.&lt;/p&gt;
+
+&lt;p&gt;Coincidentally my gut felt otherwise. This forced me to look again after a few moments and surprisingly enough the rock wasn’t there. It had moved. “This is no damn rock”. My heart skipped a beat, could it be a Turtle? The Iztuzu beach is also famously known as the Turtle beach for each year during the summer more than a 300 Loggerhead Sea Turtles come on to the beach during the night to lay eggs. This beach has been their breeding grounds for decades but only a handful people have seen it during the day as often times the turtles raise their heads out of the water to take a breath. Was I going to join this exclusive club of turtle spotters?&lt;/p&gt;
+
+&lt;p&gt;I observed it for a few more seconds and it seemed to just glide through the water, so calm and peaceful while also appearing as a big black rock. For now I was certain that it was indeed a turtle. I couldn’t hold the excitement in any longer. I got my scuba glasses on and dived into the water. And a few seconds later, I was there, side by side with this magnificent creature, a male (I know this as it had an evidently large tail) loggerhead turtle almost the size of a dinner table for four. Paddling its way through the waters slowly and swiftly, as if flying it occasionally bit into the sand under it (I don’t know why!).&lt;/p&gt;
+
+&lt;p&gt;I swam alongside it matching his every stroke with mine and trying to see the underwater world (his world) through my eyes; an heirloom of exotic food and adventure and of their family legacy that has lived on for millions of years and hopefully for the generations to come.&lt;/p&gt;
+
+&lt;center&gt;&lt;img height=&quot;225&quot; width=&quot;300&quot; src=&quot;/images/barnacles.jpeg&quot; alt=&quot;Our team working on removing barnacles from the shell of a female Loggerhead Sea Turtle&quot; /&gt;&lt;/center&gt;
+</description>
+        <pubDate>Tue, 05 Nov 2013 02:00:00 -0800</pubDate>
+        <link>https://monte9.github.io//2013/swimming-with-million-years-old-species/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2013/swimming-with-million-years-old-species/</guid>
+        
+        <category>originals</category>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello Universe!</title>
+        <description>&lt;p&gt;&lt;strong&gt;This is my first blog post. Just here to say hello to anyone listening out there, in the big black universe.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;300&quot; src=&quot;/images/hello_universe.png&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I intend to write about my experience at events that I have been to, things on the interwebz that I think are cool, tech-related posts and ofcourse some of my original stories and writings.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Sep 2013 04:00:00 -0700</pubDate>
+        <link>https://monte9.github.io//2013/hello-universe/</link>
+        <guid isPermaLink="true">https://monte9.github.io//2013/hello-universe/</guid>
+        
+        <category>misc</category>
+        
+        
+        <category>blogs</category>
         
       </item>
     
