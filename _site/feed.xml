@@ -5,8 +5,8 @@
     <description>Young, independent and ambitious software engineer looking to work on challenging technical problems with a passion for developing mobile apps.</description>
     <link>https://monte9.github.io//</link>
     <atom:link href="https://monte9.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Aug 2016 01:54:04 -0700</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2016 01:54:04 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Aug 2016 14:47:39 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Aug 2016 14:47:39 -0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -19,9 +19,9 @@
 
 &lt;p&gt;My Claim: ANYBODY* can learn to build an iOS app in one day. Here’s how… (*Given the person wants to learn it in the first place)&lt;/p&gt;
 
-&lt;p&gt;So the other day, I was wondering what kind of resources were available online for learning iOS development and so I googled “Learn iOS development” and predictable found enough online courses and tutorials to keep me busy learning iOS for the next year. It’s hard when you are trying to learn a new subject and there are not many resources available out there, but on the other hand it can be pretty overwhelming to find too many resources on a subject as well. I believe that the depth and duration of some of these courses offered online can seem unappealing to a complete newbie as nobody has so much time to commit these days with social media and life. Did you know that according to a new survey, Teens spend more time consuming media than they do sleeping. I am not even making that up, you can read more about the survey here.&lt;/p&gt;
+&lt;p&gt;So the other day, I was wondering what kind of resources were available online for learning iOS development and so I googled “Learn iOS development” and predictable found enough online courses and tutorials to keep me busy learning iOS for the next year. It’s hard when you are trying to learn a new subject and there are not many resources available out there, but on the other hand it can be pretty overwhelming to find too many resources on a subject as well. I believe that the depth and duration of some of these courses offered online can seem unappealing to a complete newbie as nobody has so much time to commit these days with social media and life. Did you know that according to a new survey, Teens spend more time consuming media than they do sleeping. I am not even making that up, you can read more about the survey &lt;a href=&quot;http://www.npr.org/2015/11/07/455120131/survey-finds-teens-spend-wealth-of-time-with-screens&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;So anyways, the reason I am writing this post in the first place is because in that huge dump of information relating to iOS development available online, I managed to find a gem of a crash course. It’s not too long, has just enough depth and is very hands on. Its called: iOS Crash Course taught by Janum trivedi. I looked into the course and starting working on it immediately. The entire course is divided into ten session most of which have pdf’s that you can go through and some of those sessions also have accompanying xcode project files. It took me roughly 5-6 hrs to go through the entire material including xcode project files and by the end of it I was able to develop my own to-do list app from scratch.&lt;/p&gt;
+&lt;p&gt;So anyways, the reason I am writing this post in the first place is because in that huge dump of information relating to iOS development available online, I managed to find a gem of a crash course. It’s not too long, has just enough depth and is very hands on. Its called: &lt;a href=&quot;http://www.ioscrashcour.se/&quot;&gt;iOS Crash Course&lt;/a&gt; taught by &lt;a href=&quot;https://twitter.com/jmtrivedi&quot;&gt;Janum trivedi&lt;/a&gt;. I looked into the course and starting working on it immediately. The entire course is divided into ten session most of which have pdf’s that you can go through and some of those sessions also have accompanying xcode project files. It took me roughly 5-6 hrs to go through the entire material including xcode project files and by the end of it I was able to develop my own to-do list app from scratch.&lt;/p&gt;
 
 &lt;p&gt;I would specifically like to bring to your attention that despite having developed iOS apps before, the crash course really helped me solidify some of the core iOS development concepts that I was fuzzy on. The xcode project was very well documented and was explained well throughout the course. So as it turns out each session needs to be downloaded separately from the github repo and while I was working on it, I found this to be very cumbersome. So I have taken the liberty of putting all of those sessions into one zip file available for download here. You can thank me later for this folks!&lt;/p&gt;
 
@@ -82,13 +82,19 @@ d. Core Data&lt;/p&gt;
 
 &lt;p&gt;I attended Twitter’s annual development conference (called Twitter Flight) at the Bill Graham Civic Auditorium in San Francisco on October 21, 2015 (wait.. isn’t that BACK TO THE FUTURE DAY?!) Yes it is, and for this occasion Twitter made sure the attendees had ‘a night to remember’. The original DeLorean from the movie was brought on premises towards the end of the event and it felt pretty surreal to sit inside it as I imagined Marty McFly sitting in the exact same seat 30 years ago. #ANightToRemember&lt;/p&gt;
 
+&lt;center&gt;&lt;img width=&quot;236&quot; height=&quot;236&quot; src=&quot;/images/flight_1.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;600&quot; height=&quot;450&quot; src=&quot;/images/flight_2.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Just like all other tech-events that I attend, I live-tweeted from the event. Using a social megaphone which is Twitter, I was able to bring a quasi-virtual experience from inside the event to my huge following on Twitter (that’s 411 people). I usually blog about these events once they are done and put up a few pictures as well although for this blog post I am going to try something different.&lt;/p&gt;
 
 &lt;p&gt;Since it was a Twitter event, I am going to present this blog post as a series of tweets in chronological order. So here goes…&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Tweets coming soon&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;If you enjoyed reading this blog post, please follow me on Twitter @MThakkar_&lt;/p&gt;
+&lt;p&gt;If you enjoyed reading this blog post, please follow me on Twitter &lt;a href=&quot;https://twitter.com/MThakkar_&quot;&gt;@MThakkar_&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Nov 2015 19:00:00 -0800</pubDate>
         <link>https://monte9.github.io//2015/twitter-flight-back-to-the-future-day/</link>
@@ -105,15 +111,35 @@ d. Core Data&lt;/p&gt;
         <title>Cal Hacks 2.0</title>
         <description>&lt;p&gt;&lt;strong&gt;Although it had its fair-share of “You’ve gotta be kidding me!” moments, it was definitely a memorable event and the organizers did a great job of holding it all together till the very end.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I just got back from Cal Hacks which was held at California Memorial Stadium, the home of the Cal Bears at UC Berkeley. Attended by over 2000 hackers it was apparently the largest hackathon ever organized. Although it had its fair-share of “You’ve gotta be kidding me!” moments, it was definitely a memorable event and the organizers did a great job of holding it all together till the very end. I feel like a lot of attendees (including myself) did not appreciate the amount of teamwork, organization and coordination that went into putting up an event on such a large scale. So shout out to the entire Cal Hacks team! Lastly, for those of you wondering “A hackathon is where your crazy ideas become reality.”&lt;/p&gt;
+&lt;p&gt;I just got back from Cal Hacks which was held at California Memorial Stadium, the home of the Cal Bears at UC Berkeley. Attended by over 2000 hackers it was apparently the largest hackathon ever organized. Although it had its fair-share of “You’ve gotta be kidding me!” moments, it was definitely a memorable event and the organizers did a great job of holding it all together till the very end. I feel like a lot of attendees (including myself) did not appreciate the amount of teamwork, organization and coordination that went into putting up an event on such a large scale. So shout out to the entire Cal Hacks team! Lastly, for those of you wondering &lt;a href=&quot;http://www.calhacks.io/&quot;&gt;“A hackathon is where your crazy ideas become reality.”&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;With that out of the way, let’s dive into the app that my team built at the hackathon: “LET’S EAT : Uber for Restaurants“. The tagline can be a bit misleading but I promise it’s not unrelated. The purpose of the app is to act as an intermediary between the customers and restaurants to make the dining experience as efficient and streamlined as possible. So let me take you through the user experience for the app.&lt;/p&gt;
 
 &lt;p&gt;Ideally each restaurant will have a QR Code with information relating to their restaurant encoded in it, such as its location, website, phone number etc. A customer can make a reservation by scanning the QR Code either by walking into the restaurant or online. Once the scan is successful, the user is prompted to enter 3 very basic and much needed information which are Customer Name, Party Size and Phone Number. This sends the notification for a new reservation to the restaurant and the customer can be seated immediately if the restaurant has open tables available.  If not, the user doesn’t have to physically wait in the restaurant and can feel free to walk around as the restaurant will send a notification to the customers when their table is ready. This puts the customer’s mind to ease and with the Uber API integrated, the customers can even take an Uber back to the restaurant right within the app with just a click of the button. Once the customer is finished with the meal, the customer can pay on the app with one or multiple credit cards. This is possible as we integrated Stripe API to process the payments in a secure manner. And there you have it… your walk-in dining experience can’t get any easier than this!&lt;/p&gt;
 
-&lt;p&gt;Here is a video showing the working of the app: https://www.youtube.com/watch?v=WpOj1XBlZJk&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WpOj1XBlZJk&quot;&gt;Click here to see a walkthrough of our app&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;And if you have gotten this far (which I dont doubt as I know this article is totally NOT boring), watch us demo it live: https://www.youtube.com/watch?v=GQTiC78Azhs&lt;/p&gt;
+&lt;p&gt;And if you have gotten this far (which I dont doubt as I know this article is totally NOT boring), &lt;a href=&quot;https://www.youtube.com/watch?v=GQTiC78Azhs&quot;&gt;watch us demo it live.&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_1.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_2.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_3.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_4.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_5.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/calhacks_6.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;225&quot; src=&quot;/images/calhacks_7.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
 </description>
         <pubDate>Thu, 22 Oct 2015 19:00:00 -0700</pubDate>
         <link>https://monte9.github.io//2015/cal-hacks-2/</link>
@@ -132,11 +158,29 @@ d. Core Data&lt;/p&gt;
 
 &lt;p&gt;Just to give you (the reader) a heads up, this blog post is written in Reverse chronology. The idea in taking this approach is to present the end product first (mobile app), and then describe briefly how we got there in the first place. I think this style makes the article much more engaging for non-techy readers.&lt;/p&gt;
 
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;168.75&quot; src=&quot;/images/TC_disrupt.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;150&quot; height=&quot;129.5&quot; src=&quot;/images/flash-em.png&quot; alt=&quot;Flash&#39;em logo&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Flash’em App: An app that connects users based on shared interests, skills and activities using unique criteria’s and categories based in the app. This approach matches users intuitively as opposed to randomly and artificially trying to network with strangers around you.&lt;/p&gt;
 
-&lt;p&gt;Watch our demo on stage, as Martin (team member 1/4) introduces our app to the judges and the 500+ audience present. Each team was given 60 seconds on stage to demo their app/ product. Unfortunately, we couldn’t finish our demo as planned within that given time but Martin did a great job presenting it on stage nonetheless.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcrunch.com/video/flashem-app/519093724/&quot;&gt;Watch our demo on stage&lt;/a&gt;, as Martin (team member 1/4) introduces our app to the judges and the 500+ audience present. Each team was given 60 seconds on stage to demo their app/ product. Unfortunately, we couldn’t finish our demo as planned within that given time but Martin did a great job presenting it on stage nonetheless.&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/tc_2.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;225&quot; src=&quot;/images/tc_3.jpg&quot; alt=&quot;Flash&#39;em logo&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Our team consisted of 4 members; Ian (backend dev- node.js), Omar (backend dev- mySQL), Monte (frontend dev- iOS) and Matin (team lead/ designer/ presenter).&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;168.75&quot; src=&quot;/images/tc_4.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;225&quot; src=&quot;/images/tc_5.jpg&quot; alt=&quot;Flash&#39;em logo&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reverse Chronological Timeline -&amp;gt;&lt;/p&gt;
 
@@ -156,9 +200,21 @@ d. Core Data&lt;/p&gt;
 
 &lt;p&gt;12:00pm (Saturday) – welcome to TC Disrupt Hackathon, walk around, meet other participants.. “THIS IS COOL!!”&lt;/p&gt;
 
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/tc_6.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/tc_7.jpg&quot; alt=&quot;Flash&#39;em logo&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;This was my FIRST hackathon and I was unsure of a lot of things: was I experienced enough to build an app? did I even have the required programming skills to contribute? will I find teammates? could I stay awake for 24 hrs? etc. Although I knew for a fact that if I did attend regardless of the outcome, I would at the very least know what the “hackathon buzz” was all about. Since it was my first hackathon I didn’t have to be perfect, I just needed to show up and be good enough.&lt;/p&gt;
 
 &lt;p&gt;The hackathon took place on September 19 – 20 at Pier 70 in San Francisco. I have never been in that part of the city as there is nothing exciting to do around there, although once I got there I felt as though I had time travelled into the past. As it turns out Pier 70 has been an industrial site since the Gold Rush (1849). It is also the oldest U.S. civilian shipyard. Walking around, I saw shipyards that could possibly be over a century old and it amazed me how far we have come from then. With our advancement in technology in this age, tech devs are able to build apps/ products/ services within 24 hrs that would be impossible to even imagine for someone back in those days. Yay… HUMANS!&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;225&quot; src=&quot;/images/tc_8.jpg&quot; alt=&quot;Man in Shower&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img width=&quot;300&quot; height=&quot;400&quot; src=&quot;/images/tc_9.jpg&quot; alt=&quot;Flash&#39;em logo&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Simply put, a hackathon is an opportunity for people to collaborate on transforming ideas into reality using technology.&lt;/p&gt;
 
@@ -189,13 +245,20 @@ d. Core Data&lt;/p&gt;
 
 &lt;p&gt;Since this is one of my first blog post and I am sure not the last, I am going to end it with a few pictures so that you can get a glimpse of what the night was like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_1.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_2.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_3.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_4.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_5.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_6.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;
-&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_7.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_1.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_2.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_3.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_4.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_5.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_6.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img height=&quot;300&quot; width=&quot;225&quot; src=&quot;/images/wot_7.jpg&quot; alt=&quot;Hello Universe&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Stay techy out there folks.&lt;/p&gt;
 </description>

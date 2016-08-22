@@ -14,12 +14,12 @@ Oh and btw, they had a workshop where you could build your own Solar powered fan
 
 Since this is one of my first blog post and I am sure not the last, I am going to end it with a few pictures so that you can get a glimpse of what the night was like.
 
-<img  height="300" width="225" src="{{ "images/wot_1.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_2.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_3.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_4.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_5.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_6.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
-<img  height="300" width="225" src="{{ "images/wot_7.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /><br />
+<center><img  height="300" width="225" src="{{ "images/wot_1.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_2.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_3.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_4.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_5.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_6.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
+<center><img  height="300" width="225" src="{{ "images/wot_7.jpg" | prepend: site.baseurl }}" alt="Hello Universe" /></center><br />
 
 Stay techy out there folks.

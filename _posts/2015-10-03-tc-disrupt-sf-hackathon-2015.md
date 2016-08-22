@@ -8,11 +8,24 @@ tags: [events]
 
 Just to give you (the reader) a heads up, this blog post is written in Reverse chronology. The idea in taking this approach is to present the end product first (mobile app), and then describe briefly how we got there in the first place. I think this style makes the article much more engaging for non-techy readers.
 
+<center><img width="300" height="168.75" src="{{ "images/TC_disrupt.jpg" | prepend: site.baseurl }}" alt="Man in Shower" /></center><br />
+
+<center><img width="150" height="129.5" src="{{ "images/flash-em.png" | prepend: site.baseurl }}" alt="Flash'em logo" /></center><br />
+
 Flash’em App: An app that connects users based on shared interests, skills and activities using unique criteria's and categories based in the app. This approach matches users intuitively as opposed to randomly and artificially trying to network with strangers around you.
 
-Watch our demo on stage, as Martin (team member 1/4) introduces our app to the judges and the 500+ audience present. Each team was given 60 seconds on stage to demo their app/ product. Unfortunately, we couldn’t finish our demo as planned within that given time but Martin did a great job presenting it on stage nonetheless.
+<a href="https://techcrunch.com/video/flashem-app/519093724/">Watch our demo on stage</a>, as Martin (team member 1/4) introduces our app to the judges and the 500+ audience present. Each team was given 60 seconds on stage to demo their app/ product. Unfortunately, we couldn’t finish our demo as planned within that given time but Martin did a great job presenting it on stage nonetheless.
+
+<center><img width="300" height="400" src="{{ "images/tc_2.jpg" | prepend: site.baseurl }}" alt="Man in Shower" /></center><br />
+
+<center><img width="300" height="225" src="{{ "images/tc_3.jpg" | prepend: site.baseurl }}" alt="Flash'em logo" /></center><br />
+
 
 Our team consisted of 4 members; Ian (backend dev- node.js), Omar (backend dev- mySQL), Monte (frontend dev- iOS) and Matin (team lead/ designer/ presenter).
+
+<center><img width="300" height="168.75" src="{{ "images/tc_4.jpg" | prepend: site.baseurl }}" alt="Man in Shower" /></center><br />
+
+<center><img width="300" height="225" src="{{ "images/tc_5.jpg" | prepend: site.baseurl }}" alt="Flash'em logo" /></center><br />
 
 Reverse Chronological Timeline ->
 
@@ -32,9 +45,17 @@ Reverse Chronological Timeline ->
 
 12:00pm (Saturday) – welcome to TC Disrupt Hackathon, walk around, meet other participants.. “THIS IS COOL!!”
 
+<center><img width="300" height="400" src="{{ "images/tc_6.jpg" | prepend: site.baseurl }}" alt="Man in Shower" /></center><br />
+
+<center><img width="300" height="400" src="{{ "images/tc_7.jpg" | prepend: site.baseurl }}" alt="Flash'em logo" /></center><br />
+
 This was my FIRST hackathon and I was unsure of a lot of things: was I experienced enough to build an app? did I even have the required programming skills to contribute? will I find teammates? could I stay awake for 24 hrs? etc. Although I knew for a fact that if I did attend regardless of the outcome, I would at the very least know what the “hackathon buzz” was all about. Since it was my first hackathon I didn’t have to be perfect, I just needed to show up and be good enough.
 
 The hackathon took place on September 19 – 20 at Pier 70 in San Francisco. I have never been in that part of the city as there is nothing exciting to do around there, although once I got there I felt as though I had time travelled into the past. As it turns out Pier 70 has been an industrial site since the Gold Rush (1849). It is also the oldest U.S. civilian shipyard. Walking around, I saw shipyards that could possibly be over a century old and it amazed me how far we have come from then. With our advancement in technology in this age, tech devs are able to build apps/ products/ services within 24 hrs that would be impossible to even imagine for someone back in those days. Yay… HUMANS!
+
+<center><img width="300" height="225" src="{{ "images/tc_8.jpg" | prepend: site.baseurl }}" alt="Man in Shower" /></center><br />
+
+<center><img width="300" height="400" src="{{ "images/tc_9.jpg" | prepend: site.baseurl }}" alt="Flash'em logo" /></center><br />
 
 Simply put, a hackathon is an opportunity for people to collaborate on transforming ideas into reality using technology.
 
